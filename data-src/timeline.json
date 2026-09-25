@@ -1,0 +1,1064 @@
+{
+ "events": [
+  {
+   "year": 1963,
+   "month": 9,
+   "title_ko": "서울특별시 도시계획구역 편입",
+   "description_ko": "1963년 9월 17일 시흥군 서면 광명리·철산리·하안리가 서울특별시 도시계획구역에 편입되었다. 이것이 서울 외곽 주거지로 개발되는 계기가 되었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ],
+   "note": "검증: 위키백과 연혁에서 날짜(1963.9.17)를 확인하고 month 9를 추가했다. confidence를 medium에서 high로 올렸다. '1982년 북부 지역 해제'는 확인하지 못해 note에서 뺐다."
+  },
+  {
+   "year": 1968,
+   "month": 7,
+   "title_ko": "서울시 택지조성사업·서울 철거민 이주 정착지 형성(광명리)",
+   "description_ko": "서울시가 1968년 7월 18일부터 1972년 8월 5일까지 광명리·철산리 일대에서 택지조성(토지구획정리)사업을 벌였다. 1960년대 말부터 서울 철거민이 광명리(현 광명동) 일대에 정착하면서 소규모 단독주택 밀집지가 생겼다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.48,
+   "lon": 126.857,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100601",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03101272",
+    "https://www.incheonilbo.com/news/articleView.html?idxno=1276654"
+   ],
+   "note": "검증: 디지털광명문화대전 GC03100601에서 서울시 택지조성사업 기간(1968.7.18~1972.8.5)과 광명리·철산리 편입을 확인했다. 같은 사전의 GC03101272는 개봉지구 사업 기간을 1968~1971로 적어 자료마다 조금 다르다. 철거민 이주 내용은 인천일보 단일 출처라 다시 확인하지 못했다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 1970,
+   "month": 6,
+   "title_ko": "시흥군 서면 광명출장소 설치",
+   "description_ko": "1970년 6월 10일 철산리·광명리를 관할하는 시흥군 서면 광명출장소가 설치되었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100106",
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ],
+   "note": "검증: 위키백과와 디지털광명문화대전 모두 1970.6.10로 적고 있다."
+  },
+  {
+   "year": 1970,
+   "month": 12,
+   "title_ko": "광명아파트 준공(경기도 최초 공동주택)",
+   "description_ko": "서울시 개봉지구 토지구획정리사업의 하나로 광명4동에 5층 24개 동, 1,000가구의 광명아파트가 지어져 1970년 12월 4일 준공식을 했다. 경기도 최초의 공동주택이다.",
+   "category": "housing",
+   "status": "demolished",
+   "confidence": "high",
+   "lat": 37.4815,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03101272"
+   ],
+   "note": "검증: 디지털광명문화대전에서 준공일, 규모, 주소(광명로 877, 광명4동 200-6)를 확인했다. 헐린 뒤 광명한진아파트(1996.11 준공)로 재건축되었다. 좌표는 추정값이다."
+  },
+  {
+   "year": 1972,
+   "title_ko": "가학광산 폐광",
+   "description_ko": "1912년 개발된 가학동 가학광산(금·은·동·아연 등)이 1972년 홍수에 따른 환경오염과 보상 문제로 문을 닫았다. 이후 젓갈 저장고로 쓰였다.",
+   "category": "industry",
+   "status": "demolished",
+   "confidence": "high",
+   "lat": 37.4263,
+   "lon": 126.8664,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4",
+    "https://www.ardentnews.co.kr/news/articleView.html?idxno=13583"
+   ],
+   "note": "검증: 위키백과에서 1912년 개발과 1972년 폐광을 확인했다. status가 demolished인 것은 광산 운영이 끝났다는 뜻이며, 갱도는 남아 2011년 광명동굴로 다시 쓰였다. 좌표는 광명동굴(가학로85번길 142) 추정값이다."
+  },
+  {
+   "year": 1973,
+   "month": 6,
+   "title_ko": "기아산업 소하리 공장 준공(현 기아 오토랜드 광명)",
+   "description_ko": "기아산업이 1970년 11월 10일 시흥군 서면 소하리에서 착공한 국내 최초의 종합 자동차 공장이 1973년 6월 준공되었다. 브리사가 이곳에서 양산되었다.",
+   "category": "industry",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.443,
+   "lon": 126.888,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100010",
+    "https://pr.kia.com/ko/company/tour/global-plant/sohari-plant.do",
+    "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%95%84_(%EA%B8%B0%EC%97%85)"
+   ],
+   "note": "검증: 검색 결과에서 1970.11.10 착공, 1973.6 완공, 연산 2.5만 대를 확인했다. 주소는 기아로 113(소하동)이다. 좌표는 금천구청역과 광명역 사이 안양천 서쪽 추정값이다."
+  },
+  {
+   "year": 1974,
+   "month": 6,
+   "title_ko": "광명출장소 시흥군 직할 승격",
+   "description_ko": "1974년 6월 1일 서면 산하였던 광명출장소가 시흥군 직할 출장소로 승격되었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100106",
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ],
+   "note": "검증: 디지털광명문화대전에서 1974.6.1을 확인했다. 위키백과에는 연도만 있다."
+  },
+  {
+   "year": 1979,
+   "month": 5,
+   "title_ko": "시흥군 서면 → 소하읍 승격",
+   "description_ko": "1979년 5월 1일 시흥군 서면이 소하읍으로 승격되었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100106",
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ]
+  },
+  {
+   "year": 1981,
+   "month": 7,
+   "title_ko": "광명시 승격",
+   "description_ko": "1981년 7월 1일 소하읍(광명출장소 관할구역 포함)이 광명시로 승격되었다. 광명동은 광명1~7동으로 나뉘었고, 당시 인구는 약 15.4만 명(153,997명)이었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100106",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100096"
+   ],
+   "note": "검증: 위키백과(인구 15만 명)와 디지털광명문화대전(153,997명)이 서로 맞는다."
+  },
+  {
+   "year": 1981,
+   "month": 12,
+   "title_ko": "철산주공 1~3단지 준공",
+   "description_ko": "철산동에 광명 최초의 대단지 주공아파트인 철산주공 1~3단지(저층)가 준공되었다.",
+   "category": "housing",
+   "status": "demolished",
+   "confidence": "medium",
+   "lat": 37.4755,
+   "lon": 126.871,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8"
+   ],
+   "note": "검증: 나무위키 단지표에서 1981.12 준공을 확인했다(단일 출처). 재건축으로 1단지는 광명e편한세상센트레빌, 2단지는 철산푸르지오하늘채·광명두산위브트레지움, 3단지는 철산래미안자이가 되었다. 좌표는 추정값이다."
+  },
+  {
+   "year": 1983,
+   "title_ko": "광명시청 철산동 신청사 이전",
+   "description_ko": "시 승격 뒤 옛 광명출장소 건물을 시청으로 쓰다가, 공간이 좁고 시 서북쪽에 치우쳐 있어 1983년 철산동에 청사를 새로 지어 옮겼다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.4786,
+   "lon": 126.8646,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C%EC%B2%AD"
+   ],
+   "note": "검증 중 추가. 이전 연도는 검색 결과 요약(나무위키 광명시청) 기준이다. 좌표는 철산역 북서쪽 시청로 일대 추정값이다."
+  },
+  {
+   "year": 1985,
+   "month": 9,
+   "title_ko": "철산주공 4~11단지 준공",
+   "description_ko": "1985년 9~10월 철산동에 철산주공 4·7·8·9·10·11단지(저층)가 잇달아 준공되었다(4·8·9단지 9월, 7·10·11단지 10월).",
+   "category": "housing",
+   "status": "demolished",
+   "confidence": "high",
+   "lat": 37.4745,
+   "lon": 126.8745,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.kyeongin.com/article/1551833"
+   ],
+   "note": "검증: 나무위키 단지표에서 단지별 준공 월을 확인했다. 4단지는 철산센트럴푸르지오, 7단지는 철산역롯데캐슬&SK뷰클래스티지, 8·9단지는 철산자이더헤리티지(2025.5), 10·11단지는 철산자이브리에르(2026.1)로 재건축되었다. 좌표는 추정값이다."
+  },
+  {
+   "year": 1986,
+   "month": 7,
+   "title_ko": "철산주공 12·13단지 준공",
+   "description_ko": "고층인 철산주공 12단지(1,800가구)와 13단지(2,460가구)가 1986년 7월 준공되었다. 현재 재건축을 추진 중이다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4705,
+   "lon": 126.8775,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.hankyung.com/article/2021122423971"
+   ],
+   "note": "검증: 나무위키에서 준공 월과 세대수를 확인했다. 좌표는 하안동과 맞닿은 철산동 남부 추정값이다."
+  },
+  {
+   "year": 1989,
+   "month": 10,
+   "title_ko": "하안택지 하안주공 1~13단지 준공·입주",
+   "description_ko": "하안택지개발지구에서 1989년 10월 1~4단지가 먼저 준공되었고, 1990년 3~11월 5~13단지가 준공되었다. 188개 동, 약 2.4만 가구 규모로 하안동 전역이 대단지 아파트가 되었다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.462,
+   "lon": 126.878,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%ED%95%98%EC%95%88%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.hankyung.com/article/2021122423971",
+    "https://www.etoday.co.kr/news/view/2027875"
+   ],
+   "note": "검증: 나무위키 단지별 준공표에서 1차 1989.10, 2차 1990.3~6, 3차 1990.9~11을 확인해 month 10을 추가했다. 대부분 단지가 아직 원형을 유지한 채 재건축을 추진 중이다. 좌표는 하안동 중심 추정값이다."
+  },
+  {
+   "year": 1990,
+   "month": 5,
+   "title_ko": "하안동 분동(하안1·2동, 이후 3·4동)",
+   "description_ko": "하안택지 입주로 인구가 늘어 1990년 5월 20일 하안동이 하안1·2동으로 나뉘었다. 이어 1990년 12월 10일 하안3동, 1995년 3월 6일 하안4동이 생겼다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ],
+   "note": "검증: 위키백과 연혁에서 세 날짜를 모두 확인했다."
+  },
+  {
+   "year": 1994,
+   "month": 7,
+   "title_ko": "제2경인고속도로 서창JC~광명IC 개통",
+   "description_ko": "1994년 7월 7일 제2경인고속도로 인천 서창분기점~광명나들목 10.8km 구간이 개통되어 광명 서남부(학온동 일대)에 고속도로가 들어왔다.",
+   "category": "road",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.435,
+   "lon": 126.848,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EA%B2%BD%EC%9D%B8%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100211"
+   ],
+   "note": "검증: 위키백과는 개통일을 1994.7.7로 적고 있어 연구 원안의 7.6을 고쳤다(월은 그대로). 좌표는 노온사·가학동 일대 노선 중심 추정값이다."
+  },
+  {
+   "year": 1995,
+   "month": 12,
+   "title_ko": "제2경인고속도로 광명IC~석수IC 개통",
+   "description_ko": "1995년 12월 28일 광명나들목~석수나들목 4.7km 구간이 개통되어 제2경인고속도로가 광명 남부를 가로질러 안양 석수까지 이어졌다.",
+   "category": "road",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.418,
+   "lon": 126.872,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%A0%9C2%EA%B2%BD%EC%9D%B8%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100211"
+   ],
+   "note": "검증: 위키백과에서 1995.12.28을 확인했다. 좌표는 광명 남부 구간 중심 추정값이다."
+  },
+  {
+   "year": 1995,
+   "month": 12,
+   "title_ko": "서울~안산고속도로 안산~일직JC 개통(현 서해안고속도로)",
+   "description_ko": "1995년 12월 28일 서울~안산고속도로 안산~일직 9.1km 구간이 개통되면서 광명 남부의 일직분기점도 함께 열렸다.",
+   "category": "road",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.41,
+   "lon": 126.868,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%95%B4%EC%95%88%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C"
+   ],
+   "note": "검증 중 추가. 위키백과 서해안고속도로 문서에 일직분기점 개통일(1995.12.28, 안산~일직 9.1km)이 나온다. 좌표는 일직JC 남서쪽 광명 구간 추정값이다."
+  },
+  {
+   "year": 1998,
+   "month": 11,
+   "title_ko": "서울~안산고속도로(현 서해안고속도로) 일직JC~금천IC 개통",
+   "description_ko": "1998년 11월 25일 일직분기점~금천나들목 5.2km 구간이 개통되었다. 이로써 소하·일직동 동쪽 안양천변을 남북으로 지나 서울 금천까지 이어지는 고속도로가 생겼다.",
+   "category": "road",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.425,
+   "lon": 126.886,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%95%B4%EC%95%88%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C"
+   ],
+   "note": "검증: 위키백과에서 1998.11.25 개통을 확인해 confidence를 high로 올렸다. 시흥시에 있는 목감나들목(1998.12.1) 언급은 광명과 관계가 없어 뺐다. 2001.8.25 서해안고속도로(15호선)에 편입되었다. 광명역IC는 2004.3.15, 소하JC는 2016.7.3 개통. 좌표는 추정값이다."
+  },
+  {
+   "year": 2000,
+   "month": 2,
+   "title_ko": "지하철 7호선 광명사거리역 개통",
+   "description_ko": "2000년 2월 29일 7호선 온수~신풍 구간이 연장 개통되면서 광명동에 광명사거리역이 문을 열었다.",
+   "category": "rail",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4792,
+   "lon": 126.8548,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100106",
+    "https://en.wikipedia.org/wiki/Gwangmyeongsageori_station"
+   ],
+   "note": "검증: 위키백과 연혁에서 2000.2.29 개통을 확인했다. 좌표는 추정값이다."
+  },
+  {
+   "year": 2000,
+   "month": 2,
+   "title_ko": "지하철 7호선 철산역 개통",
+   "description_ko": "2000년 2월 29일 7호선 연장 개통으로 광명시청 인근 철산동에 철산역이 문을 열었다.",
+   "category": "rail",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.476,
+   "lon": 126.8679,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ],
+   "note": "좌표는 추정값이다."
+  },
+  {
+   "year": 2004,
+   "month": 4,
+   "title_ko": "KTX 광명역 개통",
+   "description_ko": "2004년 4월 1일 경부고속철도 개통과 함께 일직동 KTX 광명역이 영업을 시작했다. 1999년 12월 착공해 2004년 3월 27일 역사를 준공했다. 옛 이름은 남서울역이며 2000년 8월 광명역으로 바뀌었다.",
+   "category": "rail",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.41639,
+   "lon": 126.885,
+   "coord_confidence": "exact",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%97%AD",
+    "https://en.wikipedia.org/wiki/Gwangmyeong_Station"
+   ],
+   "note": "검증: 위키백과 광명역 연혁에서 날짜와 좌표를 확인했다."
+  },
+  {
+   "year": 2006,
+   "month": 2,
+   "title_ko": "광명스피돔 개장",
+   "description_ko": "2003년 2월 착공한 돔형 실내 경륜장 광명스피돔이 2005년 12월 말 준공되어 2006년 2월 17일 개장했다. 경륜이 잠실에서 광명으로 옮겨 왔다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.466881,
+   "lon": 126.845111,
+   "coord_confidence": "exact",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85_%EC%8A%A4%ED%94%BC%EB%8F%94",
+    "https://www.hankookilbo.com/news/article/200602270141497173"
+   ],
+   "note": "검증: 위키백과에서 착공(2003.2.14), 준공, 개장일, 좌표를 확인했다. 주소는 광명로 721."
+  },
+  {
+   "year": 2006,
+   "month": 12,
+   "title_ko": "수도권 전철 1호선 광명셔틀 운행 개시",
+   "description_ko": "2006년 12월 15일 옛 기아 공장 인입선을 활용한 광명선으로 용산~광명역 셔틀전철이 운행을 시작했다. 2008년 12월 1일부터는 영등포~광명으로 단축 운행한다.",
+   "category": "rail",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.436,
+   "lon": 126.8905,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%97%AD",
+    "https://korailtalk.co.kr/409/"
+   ],
+   "note": "검증: 위키백과 광명역 연혁에서 두 날짜를 확인했다. 좌표는 금천구청역~광명역 사이 광명 구간 선로 중심 추정값이다."
+  },
+  {
+   "year": 2007,
+   "month": 7,
+   "title_ko": "광명재정비촉진지구(광명뉴타운) 지정",
+   "description_ko": "광명동·철산동 일대 약 228만㎡가 2007년 7월 31일 재정비촉진지구로 지정되었고, 2009년 12월 4일 재정비촉진계획이 결정·고시되었다(촉진구역 13곳 등). 2013년과 2015년에 여러 구역이 해제되었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100602",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100106",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4"
+   ],
+   "note": "검증: 검색 결과에서 지정일 2007.7.31과 촉진계획 결정 2009.12.4을 확인해 confidence를 high로 올렸다. 해제 구역은 1차 2013.1.9(6·17·18·19·21R), 2차 2015.1.6(3·7·8·13R 등)이다. 7R은 이후 공공재개발로 다시 추진되었다."
+  },
+  {
+   "year": 2009,
+   "month": 11,
+   "title_ko": "철산주공 재건축 첫 입주(철산래미안자이)",
+   "description_ko": "2008년 재건축 이주로 인구가 약 30만 명(300,501명)까지 줄었다가, 2009년 11월 철산주공 3단지를 재건축한 철산래미안자이(2,072가구)를 시작으로 재건축 단지 입주가 시작되었다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4755,
+   "lon": 126.871,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.knowingasset.com/app/land/house/4121010200106340000",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100096",
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8"
+   ],
+   "note": "검증: 검색 결과에서 철산래미안자이 2009.11 입주와 2,072세대를 확인해 제목을 구체화하고 month 11을 추가했다. 나머지 1·2·4단지 재건축 단지의 입주 월은 확인하지 못했다. 좌표는 추정값이다."
+  },
+  {
+   "year": 2010,
+   "title_ko": "소하택지지구 휴먼시아 입주",
+   "description_ko": "2002년 6월 지정된 소하택지개발지구(소하동·하안동, 약 104만㎡, 5,898세대 계획)에 LH 휴먼시아 대단지가 2010년 전후로 입주했다(예: 광명신촌휴먼시아2단지 사용승인 2010.10.29). 이로써 소하동이 아파트 주거지로 바뀌었다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.443,
+   "lon": 126.88,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100605",
+    "https://hogangnono.com/apt/5Cv5d",
+    "https://namu.wiki/w/%EC%86%8C%ED%95%98%ED%9C%B4%EB%A8%BC%EC%8B%9C%EC%95%84"
+   ],
+   "note": "검증: 디지털광명문화대전에서 지구 지정(2002.6.28)과 착공(2005.10.31)을 확인했다. 같은 자료는 준공을 2007.12로 적지만 아파트 입주는 2010년 무렵부터라 단지별로 1~2년 차이가 있을 수 있다. 원안의 '광명역세권휴먼시아'는 광명역세권 택지(일직동)의 단지라 설명에서 뺐다. 좌표는 소하동 중심 추정값이다."
+  },
+  {
+   "year": 2010,
+   "month": 5,
+   "title_ko": "광명시흥 보금자리주택지구 지정(이후 해제)",
+   "description_ko": "광명·시흥 경계의 개발제한구역 약 1,700만㎡가 2010년 5월 보금자리주택지구로 지정되었다. 그러나 주택경기 침체와 LH 재원 부족으로 2014년 9월 백지화가 발표되었고, 2015년 4월 특별관리지역으로 바뀌었다.",
+   "category": "future",
+   "status": "cancelled",
+   "confidence": "high",
+   "lat": 37.44,
+   "lon": 126.845,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.seoul.co.kr/news/economy/estate/2014/09/05/20140905004005",
+    "https://www.metroseoul.co.kr/article/20221209500263",
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02289446628953800"
+   ],
+   "note": "검증: 검색 결과에서 2010년 5월 지정과 2015년 4월 특별관리지역 지정을 확인해 confidence를 high로 올렸다. 이 부지가 2021년 3기 신도시로 다시 지정되었다. 좌표는 노온사·가학동 일대 추정값이다."
+  },
+  {
+   "year": 2011,
+   "month": 2,
+   "title_ko": "광명역 일직터널 KTX 탈선 사고",
+   "description_ko": "2011년 2월 11일 광명역 인근 일직터널에서 KTX-산천 열차가 탈선했다.",
+   "category": "disaster",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.409,
+   "lon": 126.8865,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%97%AD"
+   ],
+   "note": "검증: 위키백과 광명역 연혁에서 확인했다. 좌표는 광명역 남쪽 추정값이다."
+  },
+  {
+   "year": 2011,
+   "title_ko": "광명시 가학광산 매입·광명동굴 무료 개방",
+   "description_ko": "광명시가 젓갈 창고로 쓰이던 가학광산 부지를 2011년 사들여 동굴 관광지로 무료 개방했다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4263,
+   "lon": 126.8664,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4",
+    "https://www.ardentnews.co.kr/news/articleView.html?idxno=13583"
+   ],
+   "note": "검증: 위키백과와 검색 결과에서 2011년 매입과 무료 개방을 확인했다."
+  },
+  {
+   "year": 2012,
+   "month": 12,
+   "title_ko": "코스트코 광명점 개점",
+   "description_ko": "2012년 12월 15일 광명역세권 일직동에 코스트코 광명점이 문을 열었다. 코스트코코리아 본사도 광명점에 자리 잡았다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.4185,
+   "lon": 126.8825,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94%20%EA%B4%91%EB%AA%85%EC%A0%90",
+    "https://www.kyeongin.com/article/1698017"
+   ],
+   "note": "검증: 검색 결과에서 개점일 2012.12.15을 다시 확인했다. 본사 이전 시점은 자료 해석에 차이가 있어 연도를 적지 않았다. 주소는 일직로 40. 좌표는 추정값이다."
+  },
+  {
+   "year": 2014,
+   "month": 12,
+   "title_ko": "롯데프리미엄아울렛 광명점 개장",
+   "description_ko": "2014년 12월 5일 광명역 인근 이케아 부지 일부를 빌려 도심형 아웃렛인 롯데프리미엄아울렛 광명점이 문을 열었다. 2020년 5월 롯데몰 광명점으로 바뀌었다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4225,
+   "lon": 126.883,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://blog.lotte.co.kr/23260",
+    "https://www.seoul.co.kr/news/economy/2014/12/05/20141205016032",
+    "https://www.hankyung.com/article/202005279237Y"
+   ],
+   "note": "검증: 검색 결과에서 2014.12.5 개장을 확인했다. 좌표는 이케아 바로 옆 추정값이다."
+  },
+  {
+   "year": 2014,
+   "month": 12,
+   "title_ko": "이케아 광명점 개장(국내 1호점)",
+   "description_ko": "2014년 12월 18일 일직동 광명역세권에 이케아 국내 1호점인 광명점이 문을 열었다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4235,
+   "lon": 126.8818,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.seoul.co.kr/news/economy/2014/12/16/20141216015006",
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02433766606318848",
+    "https://www.g-enews.com/article/Distribution/2014/12/201412151555240128558_1"
+   ],
+   "note": "검증: 여러 기사로 12.18 개장을 확인했다. 좌표는 광명역 북쪽 추정값이다."
+  },
+  {
+   "year": 2015,
+   "month": 4,
+   "title_ko": "광명동굴 유료 테마파크 재개장",
+   "description_ko": "2015년 4월 4일 광명동굴이 와인동굴 등을 갖춘 유료 동굴 테마파크로 다시 문을 열었고, 6개월 만에 약 74만 명이 찾았다.",
+   "category": "landmark",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4263,
+   "lon": 126.8664,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EB%8F%99%EA%B5%B4",
+    "https://www.ardentnews.co.kr/news/articleView.html?idxno=13583",
+    "https://go.seoul.co.kr/news/newsView.php?id=20210426500193"
+   ],
+   "note": "검증: 검색 결과에서 2015.4.4 유료 재개장과 6개월 74만 명을 확인했다."
+  },
+  {
+   "year": 2016,
+   "month": 4,
+   "title_ko": "수원광명고속도로 개통",
+   "description_ko": "2011년 4월 착공한 수원~광명 고속도로(27.4km, 현 평택파주고속도로 일부)가 2016년 4월 29일 개통되었다. 광명 쪽에는 남광명분기점과 소하나들목·소하분기점이 있다.",
+   "category": "road",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.411,
+   "lon": 126.879,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.seoul.co.kr/news/economy/2016/04/28/20160428500151",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03130044",
+    "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%95%98_%EB%B6%84%EA%B8%B0%EC%A0%90"
+   ],
+   "note": "검증: 검색 결과에서 2016.4.29 오후 2시 개통을 확인했다. 좌표는 광명 남부 구간 추정값이다."
+  },
+  {
+   "year": 2016,
+   "month": 7,
+   "title_ko": "강남순환도시고속도로 개통(광명 소하동~서초 우면동)",
+   "description_ko": "광명시 소하동 소하분기점에서 시작해 금천·관악을 거쳐 서초 우면동까지 가는 강남순환도시고속도로가 2016년 7월 3일 개통되었다. 소하분기점도 이날 함께 열렸다.",
+   "category": "road",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.435,
+   "lon": 126.892,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%95%98_%EB%B6%84%EA%B8%B0%EC%A0%90",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100209",
+    "https://ko.wikipedia.org/wiki/%EC%84%9C%ED%95%B4%EC%95%88%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C"
+   ],
+   "note": "검증: 위키백과(소하 분기점, 서해안고속도로)에 따르면 터널 안전 시운전 때문에 개통이 늦어져 2016.7.3에 열렸다. '7월 1일' 설은 뺐다. 좌표는 광명 소하1동·금천 시흥3동·안양 석수2동 경계의 소하JC 추정값이다."
+  },
+  {
+   "year": 2017,
+   "month": 7,
+   "title_ko": "광명역파크자이 입주(광명역세권 택지)",
+   "description_ko": "KTX 광명역 길 건너편 광명역세권 택지에 GS건설 광명역파크자이(아파트 875가구, 오피스텔 336실)가 2017년 7월 27일 사용승인을 받고 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.419,
+   "lon": 126.8805,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://hogangnono.com/apt/aFb5a",
+    "https://www.seoul.co.kr/news/economy/estate/2014/09/29/20140929024009"
+   ],
+   "note": "검증: 검색 결과에서 사용승인일 2017.7.27을 확인해 confidence를 high로 올렸다. 좌표는 추정값이다."
+  },
+  {
+   "year": 2019,
+   "month": 3,
+   "title_ko": "광명서울고속도로 착공",
+   "description_ko": "광명시 가학동~서울 강서구 방화동 20.2km 민자고속도로가 2019년 3월 27일 착공했다.",
+   "category": "road",
+   "status": "under_construction",
+   "confidence": "high",
+   "lat": 37.445,
+   "lon": 126.848,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://news.mtn.co.kr/news-detail/2024012200580345192",
+    "https://www.hankyung.com/article/202506020775i",
+    "https://hellot.net/mobile/article.html?no=101594"
+   ],
+   "note": "검증: 검색 결과에서 착공일을 확인했다. 좌표는 광명 서부 통과 구간 중심의 대략값이다."
+  },
+  {
+   "year": 2019,
+   "month": 9,
+   "title_ko": "신안산선 착공",
+   "description_ko": "여의도~광명~안산·시흥을 잇는 신안산선 복선전철 1단계가 2019년 9월 착공했다. 광명에는 KTX 광명역 환승역이 생긴다.",
+   "category": "rail",
+   "status": "under_construction",
+   "confidence": "high",
+   "lat": 37.41639,
+   "lon": 126.885,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sinansan_Line",
+    "https://namu.wiki/w/%EC%8B%A0%EC%95%88%EC%82%B0%EC%84%A0"
+   ],
+   "note": "검증: 영어 위키백과에서 착공일을 2019.9.9로 확인했다. 광명시흥 신도시 구간에는 학온역도 계획되어 있다(나무위키 광명시흥신도시). 좌표는 광명역."
+  },
+  {
+   "year": 2021,
+   "month": 2,
+   "title_ko": "광명시흥 3기 신도시 발표",
+   "description_ko": "2021년 2월 24일 국토교통부가 광명시흥지구(약 1,271만㎡)를 신규 공공택지(3기 신도시)로 발표했다.",
+   "category": "future",
+   "status": "planned",
+   "confidence": "high",
+   "lat": 37.44,
+   "lon": 126.845,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C%ED%9D%A5%EC%8B%A0%EB%8F%84%EC%8B%9C",
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02289446628953800"
+   ],
+   "note": "검증: 나무위키에서 2021.2.24 발표를 확인했다. 광명 쪽 범위는 광명동·옥길동·노온사동·가학동 일원, 시흥 쪽은 과림동·무지내동·금이동 일원이다. 좌표는 광명 쪽 지구 중심 추정값이다."
+  },
+  {
+   "year": 2021,
+   "month": 4,
+   "title_ko": "광명뉴타운 첫 입주(16R 광명아크포레자이위브)",
+   "description_ko": "광명뉴타운 16R구역 광명아크포레자이위브(2,104가구)가 뉴타운 첫 입주 단지로 2021년 4월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4",
+    "http://news.bizwatch.co.kr/article/real_estate/2024/09/23/0027"
+   ],
+   "note": "검증: 나무위키 완료구역 표에서 2021.4를 확인했다. 구역별 정확한 위치는 확인하지 못해 광명동 중심 좌표를 썼다."
+  },
+  {
+   "year": 2021,
+   "month": 4,
+   "title_ko": "월곶판교선 착공",
+   "description_ko": "시흥 월곶~광명~안양~판교 복선전철(39.8km)이 2021년 4월 26일 10개 공구 중 8개 공구부터 착공했다. 광명~시흥시청 구간은 신안산선과 선로를 함께 쓴다.",
+   "category": "rail",
+   "status": "under_construction",
+   "confidence": "high",
+   "lat": 37.41639,
+   "lon": 126.885,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9B%94%EA%B3%B6-%ED%8C%90%EA%B5%90%EC%84%A0",
+    "https://brunch.co.kr/@2002cta/1885"
+   ],
+   "note": "검증: 위키백과에서 2021.4.26 착공(8개 공구)과 2024.7.1 9개 공구 착공을 확인했다. 좌표는 광명역."
+  },
+  {
+   "year": 2021,
+   "month": 11,
+   "title_ko": "일직동 신설(소하2동에서 분동)",
+   "description_ko": "광명역세권 인구가 늘어 2021년 11월 29일 소하2동에서 일직동이 떨어져 나왔다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "none",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B4%91%EB%AA%85%EC%8B%9C"
+   ],
+   "note": "검증: 위키백과 연혁에서 확인했다."
+  },
+  {
+   "year": 2022,
+   "month": 10,
+   "title_ko": "광명뉴타운 15R 광명푸르지오센트베르 입주",
+   "description_ko": "광명뉴타운 15R구역 광명푸르지오센트베르(1,335가구)가 2022년 10월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4",
+    "http://news.bizwatch.co.kr/article/real_estate/2024/09/23/0027"
+   ],
+   "note": "나무위키 완료구역 표와 맞는다. 구역 위치를 확인하지 못해 광명동 중심 좌표를 썼다."
+  },
+  {
+   "year": 2022,
+   "month": 11,
+   "title_ko": "광명시흥 공공주택지구 지구지정 고시",
+   "description_ko": "2022년 11월 29일 광명시흥 공공주택지구(1,271만㎡) 지구지정이 고시되었고, 2024년 12월 30일 6.7만 가구 규모의 지구계획이 승인·고시되었다.",
+   "category": "admin",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.44,
+   "lon": 126.845,
+   "coord_confidence": "approx",
+   "sources": [
+    "http://www.shtimes.kr/news/article.html?no=21917",
+    "https://m.sedaily.com/article/13532809",
+    "https://www.mt.co.kr/estate/2024/12/30/2024123009105574309"
+   ],
+   "note": "검증: 검색 결과에서 지구지정 고시일(11.29)과 지구계획 승인일(2024.12.30)을 여러 기사로 확인해 confidence를 high로 올렸다. 나무위키의 '2022년 상반기 지정'은 옛 계획이다."
+  },
+  {
+   "year": 2023,
+   "month": 9,
+   "title_ko": "광명뉴타운 14R 광명푸르지오포레나 입주",
+   "description_ko": "광명뉴타운 14R구역 광명푸르지오포레나(1,187가구)가 2023년 9월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4"
+   ],
+   "note": "나무위키 완료구역 표와 맞는다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 2024,
+   "month": 12,
+   "title_ko": "광명뉴타운 10R·2R 입주(호반써밋그랜드에비뉴·트리우스광명)",
+   "description_ko": "10R 호반써밋그랜드에비뉴(1,051가구)가 2024년 10월, 2R 트리우스광명(3,344가구)이 2024년 12월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4",
+    "http://news.bizwatch.co.kr/article/real_estate/2024/09/23/0027"
+   ],
+   "note": "나무위키 완료구역 표와 맞는다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 2025,
+   "month": 4,
+   "title_ko": "신안산선 광명 공사현장 지하터널 붕괴사고",
+   "description_ko": "2025년 4월 11일 광명시 일직동 신안산선 5-2공구 지하터널 공사현장이 무너져 도로가 꺼졌다. 작업자 1명이 숨지고 1명이 크게 다쳤다. 공사는 약 17개월 중단되었다가 2026년 9월 재개될 예정이다.",
+   "category": "disaster",
+   "status": "completed",
+   "confidence": "high",
+   "lat": 37.4265,
+   "lon": 126.879,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.sisajournal-e.com/news/articleView.html?idxno=423206",
+    "https://en.wikipedia.org/wiki/Sinansan_Line"
+   ],
+   "note": "검증: 시사저널e(2026.8.21)에서 날짜, 위치(일직동), 인명피해, 약 17개월 중단, 2026년 9월 재개 전망을 확인했다. 좌표는 일직동 양지사거리 인근 오리로 추정값이다."
+  },
+  {
+   "year": 2025,
+   "month": 5,
+   "title_ko": "철산자이더헤리티지 입주(철산주공 8·9단지 재건축)",
+   "description_ko": "철산주공 8·9단지를 재건축한 철산자이더헤리티지가 2025년 5월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.4745,
+   "lon": 126.8765,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8"
+   ],
+   "note": "나무위키 단지표와 맞는다. 좌표는 철산동 동부 추정값이다."
+  },
+  {
+   "year": 2025,
+   "month": 11,
+   "title_ko": "광명뉴타운 4R 광명센트럴아이파크 입주",
+   "description_ko": "광명뉴타운 4R구역 광명센트럴아이파크(1,957가구)가 2025년 11월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4"
+   ],
+   "note": "나무위키 완료구역 표와 맞는다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 2025,
+   "month": 12,
+   "title_ko": "광명뉴타운 1R 광명자이더샵포레나 입주",
+   "description_ko": "광명뉴타운 최대 단지인 1R구역 광명자이더샵포레나(3,585가구)가 2025년 12월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4"
+   ],
+   "note": "나무위키 완료구역 표와 맞는다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 2026,
+   "month": 1,
+   "title_ko": "철산자이브리에르 입주(철산주공 10·11단지 재건축)",
+   "description_ko": "철산주공 10·11단지를 재건축한 철산자이브리에르가 2026년 1월 입주했다.",
+   "category": "housing",
+   "status": "completed",
+   "confidence": "medium",
+   "lat": 37.4735,
+   "lon": 126.876,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8"
+   ],
+   "note": "나무위키 단지표와 맞는다. 좌표는 철산동 추정값이다."
+  },
+  {
+   "year": 2027,
+   "month": 7,
+   "title_ko": "광명뉴타운 5R·9R 입주 예정",
+   "description_ko": "5R 광명자이힐스테이트SK뷰(2,878가구)가 2027년 7월, 9R 광명롯데캐슬시그니처(1,509가구)가 2027년 10월 입주할 예정이다.",
+   "category": "housing",
+   "status": "under_construction",
+   "confidence": "medium",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4",
+    "https://v.daum.net/v/20260223101725454"
+   ],
+   "note": "나무위키 진행구역 표와 맞는다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 2027,
+   "month": 12,
+   "title_ko": "광명서울고속도로 개통 예정",
+   "description_ko": "구로·부천 지역 반대와 노선 변경 요구로 공사 기간이 45개월 늘어나, 광명 가학동~서울 방화동 구간은 2027년 12월 31일 준공·개통을 목표로 하고 있다.",
+   "category": "road",
+   "status": "under_construction",
+   "confidence": "medium",
+   "lat": 37.445,
+   "lon": 126.848,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://news.mtn.co.kr/news-detail/2024012200580345192",
+    "https://www.hankyung.com/article/202506020775i",
+    "https://www.newstomato.com/ReadNews.aspx?no=1217303"
+   ],
+   "note": "검증: 검색 결과에서 2027.12.31 목표를 확인했다. 2024년 초 공정률이 30%에 못 미쳐 더 늦어질 수 있다."
+  },
+  {
+   "year": 2027,
+   "title_ko": "광명시흥 신도시 택지 착공 예정",
+   "description_ko": "2026년 5월 19일 토지보상 감정평가가 끝나 7월부터 본격 보상을 시작했다. LH는 2027년 말 택지 착공, 2029년 첫 분양을 목표로 한다.",
+   "category": "future",
+   "status": "planned",
+   "confidence": "medium",
+   "lat": 37.44,
+   "lon": 126.845,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.newspim.com/news/view/20260529000973",
+    "https://m.news.nate.com/view/20260524n10472",
+    "https://www.sentv.co.kr/article/view/sentv202605240006"
+   ],
+   "note": "검증: 뉴스핌(2026.6.1)에서 감정평가 완료일(5.19), 7월 보상 착수, 2027년 말 착공, 2029년 첫 분양, 2031년 최초 입주 일정을 확인했다."
+  },
+  {
+   "year": 2028,
+   "month": 12,
+   "title_ko": "신안산선 개통 목표(광명역 환승)",
+   "description_ko": "광명 붕괴사고 뒤 재조사와 설계 재점검으로 개통이 원래 목표인 2026년 12월에서 약 2년 늦춰져 2028년 말 이후가 되었다. 광명역이 신안산선 환승역이 된다.",
+   "category": "rail",
+   "status": "under_construction",
+   "confidence": "low",
+   "lat": 37.41639,
+   "lon": 126.885,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.sisajournal-e.com/news/articleView.html?idxno=423206",
+    "https://v.daum.net/v/t8umTEaeZj",
+    "https://www.gcinnews.com/news/articleView.html?idxno=13374"
+   ],
+   "note": "검증: 시사저널e(2026.8.21)에 따르면 공기 연장안(80개월→104개월)과 새 전동차 납기가 모두 2028년 말이고, 하나라도 늦어지면 2030년 개통도 장담하기 어렵다. 확정 공식 목표는 없어 confidence는 low로 둔다."
+  },
+  {
+   "year": 2029,
+   "month": 6,
+   "title_ko": "광명뉴타운 11R·12R 입주 예정",
+   "description_ko": "11R 힐스테이트광명(4,291가구)이 2029년 6월, 12R 철산역자이(2,045가구)가 2029년 5월 입주할 예정이다.",
+   "category": "housing",
+   "status": "under_construction",
+   "confidence": "low",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4"
+   ],
+   "note": "나무위키 진행구역 표 단일 출처이며 일정이 바뀔 수 있다. 좌표는 광명동 중심 추정값이다."
+  },
+  {
+   "year": 2029,
+   "month": 12,
+   "title_ko": "월곶판교선 개통 목표",
+   "description_ko": "광명역에서 신안산선·KTX·1호선과 환승하는 월곶판교선(11개 역, 전 구간 지하)이 2029년 12월 개통을 목표로 공사 중이다. 2026년 3월 누계 공정률은 22.3%다.",
+   "category": "rail",
+   "status": "under_construction",
+   "confidence": "medium",
+   "lat": 37.41639,
+   "lon": 126.885,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9B%94%EA%B3%B6-%ED%8C%90%EA%B5%90%EC%84%A0",
+    "https://www.kyeongin.com/article/1693492",
+    "https://v.daum.net/v/f2Go66yOcf"
+   ],
+   "note": "검증: 원안은 2028년 개통 목표였지만 위키백과와 경인일보는 2029년 12월 개통 예정으로 적고 있어 연도를 고쳤다. 2028년은 준공(공사 완료) 목표로 보인다. 공정률을 보면 더 늦어질 수 있다."
+  },
+  {
+   "year": 2030,
+   "title_ko": "광명뉴타운 7R(공공재개발) 준공 목표",
+   "description_ko": "2015년 촉진구역에서 해제되었다가 공공재개발로 다시 추진하는 7R구역(3,010가구)이 2030년 준공을 목표로 하고 있다.",
+   "category": "housing",
+   "status": "planned",
+   "confidence": "low",
+   "lat": 37.479,
+   "lon": 126.856,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EB%89%B4%ED%83%80%EC%9A%B4"
+   ],
+   "note": "단일 출처이고 일정이 바뀔 수 있다. 7R은 2015.1.6 2차 해제 구역에 들어 있었다."
+  },
+  {
+   "year": 2031,
+   "title_ko": "광명시흥 3기 신도시 첫 입주 목표",
+   "description_ko": "여의도 4.4배 면적에 6만 7천 가구(공공 3만 7천 가구)를 짓는 광명시흥 신도시가 2031년 첫 입주를 목표로 하고 있다.",
+   "category": "future",
+   "status": "planned",
+   "confidence": "medium",
+   "lat": 37.44,
+   "lon": 126.845,
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.newspim.com/news/view/20260529000973",
+    "https://www.mt.co.kr/estate/2024/12/30/2024123009105574309",
+    "https://www.kyeonggi.com/article/20241230580277"
+   ],
+   "note": "검증: 2026년 6월 기사에서도 2029년 첫 분양, 2031년 최초 입주 목표가 유지되고 있다. 전체 준공은 그보다 늦다."
+  }
+ ],
+ "era_summaries": [
+  {
+   "from_year": 1960,
+   "to_year": 1969,
+   "population": 12000,
+   "summary_ko": "시흥군 서면에 속한 농촌 지대로, 광명리·철산리·하안리·소하리·가학리 등 자연부락과 논밭, 구릉지가 대부분이었다. 1963년 광명리·철산리·하안리가 서울 도시계획구역에 편입되었고, 1968년부터 서울시 택지조성사업과 철거민 정착으로 광명리(현 광명동) 일대에 주거지가 생기기 시작했다.",
+   "builtup_areas_ko": "광명리(현 광명동) 일부, 철산리·하안리·소하리 자연부락, 가학광산"
+  },
+  {
+   "from_year": 1970,
+   "to_year": 1979,
+   "population": 93000,
+   "summary_ko": "1970년 광명출장소가 설치되고 경기도 최초의 공동주택인 광명아파트가 준공되었다. 철거민과 이주민이 몰려 광명동이 단독주택 밀집 주거지로 빠르게 커졌고, 1973년 소하리 기아 자동차 공장이 준공되었다. 가학광산은 1972년 문을 닫았다. 인구는 1970년 약 2.8만 명(27,816명)에서 1975년 약 9.3만 명(93,328명)으로 늘었다.",
+   "builtup_areas_ko": "광명동 전역(광명리), 철산동 북부, 소하리 기아공장"
+  },
+  {
+   "from_year": 1980,
+   "to_year": 1989,
+   "population": 219000,
+   "summary_ko": "1981년 광명시로 승격했다(인구 약 15.4만 명). 1983년 시청이 철산동 신청사로 옮겼다. 철산주공(1981~1986)과 하안주공(1989.10~1990) 대단지가 잇달아 들어서 인구가 1985년 약 21.9만 명, 1990년 약 30~33만 명(자료별 차이)으로 늘었다. 서울 구로공단 배후의 베드타운 성격이 굳어졌다.",
+   "builtup_areas_ko": "광명동, 철산동(주공 1~13단지·시청), 하안동(1989년 말부터 주공 입주), 소하동 기아공장 주변"
+  },
+  {
+   "from_year": 1990,
+   "to_year": 1999,
+   "population": 346000,
+   "summary_ko": "하안택지 입주가 끝나 하안동이 1~4동으로 나뉘었고, 인구는 1990년대 중반 약 35만 명 수준(1996년 346,740명)이었다. 제2경인고속도로(1994~1995)와 서울~안산고속도로(현 서해안고속도로, 1995 일직JC 남쪽·1998 금천 방향)가 시 남부와 동부를 지나게 되었다.",
+   "builtup_areas_ko": "광명동, 철산동, 하안동 전역, 소하동 일부, 고속도로 축(노온사·가학·일직)"
+  },
+  {
+   "from_year": 2000,
+   "to_year": 2009,
+   "population": 320000,
+   "summary_ko": "7호선 광명사거리역·철산역(2000)과 KTX 광명역(2004), 광명셔틀(2006)이 개통되고 광명스피돔(2006)이 문을 열었다. 2007년 광명뉴타운(재정비촉진지구)이 지정되었다. 철산주공 재건축 이주로 2008년 인구가 약 30만 명까지 줄었다가, 2009년 11월 철산래미안자이 입주로 다시 늘기 시작했다. 소하택지개발(2002 지정)이 진행되었다.",
+   "builtup_areas_ko": "광명동, 철산동(재건축 진행), 하안동, 소하동 택지 조성, 일직동 광명역 일대(역사 중심)"
+  },
+  {
+   "from_year": 2010,
+   "to_year": 2019,
+   "population": 340000,
+   "summary_ko": "소하지구 휴먼시아(2010 전후)가 입주했다. 광명역세권에는 코스트코(2012), 롯데아울렛·이케아(2014), 광명역파크자이(2017)가 들어섰고, 광명동굴(2011 무료, 2015 유료 개장)과 수원광명·강남순환 고속도로(2016)가 문을 열었다. 광명시흥 보금자리지구(2010)는 2014~2015년 해제되었다. 인구는 2012년 무렵 약 35~36만 명으로 역대 최고였다가 이후 줄었다.",
+   "builtup_areas_ko": "광명동, 철산동, 하안동, 소하동, 일직동 광명역세권(상업·주거), 가학동 광명동굴"
+  },
+  {
+   "from_year": 2020,
+   "to_year": 2029,
+   "population": 290000,
+   "summary_ko": "광명뉴타운 재개발 단지가 2021년부터 차례로 입주하고, 철산주공 8~11단지 재건축도 끝났다. 신안산선·월곶판교선·광명서울고속도로 공사가 진행 중이며, 2025년 일직동 신안산선 붕괴사고로 신안산선 개통이 2028년 말 이후로 늦어졌다. 인구는 2020년 말 약 29.9만 명에서 2024년 약 27.8만 명까지 줄었다가, 뉴타운 입주로 2025년 약 29.4만 명으로 다시 늘었다. 광명시흥 3기 신도시는 2026년 보상에 들어가 2027년 말 착공할 예정이다.",
+   "builtup_areas_ko": "광명동(뉴타운 고층 단지로 전환), 철산동(재건축 대부분 완료), 하안동(재건축 추진), 소하동, 일직동, 학온동(신도시 보상·착공 준비)"
+  },
+  {
+   "from_year": 2030,
+   "to_year": 2035,
+   "summary_ko": "신안산선·월곶판교선이 개통하면 광명역이 KTX·1호선·신안산선·월곶판교선이 만나는 환승 거점이 된다(신안산선은 2028년 말 이후, 월곶판교선은 2029년 12월 목표이며 둘 다 더 늦어질 수 있다). 광명시흥 3기 신도시(6.7만 가구)는 2031년 첫 입주를 목표로 광명동·옥길동·노온사동·가학동 일대에 조성된다. 광명뉴타운 7R 등 남은 구역도 완공될 예정이다(모두 계획 기준).",
+   "builtup_areas_ko": "기존 시가지 전역과 학온동(옥길·노온사·가학) 광명시흥 신도시 조성 지역"
+  }
+ ]
+}

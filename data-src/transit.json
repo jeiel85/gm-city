@@ -1,0 +1,738 @@
+{
+ "lines": [
+  {
+   "id": "seoul_line7",
+   "name_ko": "서울 지하철 7호선",
+   "kind": "subway",
+   "line_color_hex": "#747F00",
+   "opened_year_in_gwangmyeong": 2000,
+   "opened_month": 2,
+   "status": "completed",
+   "level_in_gwangmyeong": "underground: 광명시 구간은 모두 지하다. 철산역에서 동쪽 가산디지털단지역(금천구)으로 가면서 안양천 밑을 지나고, 광명사거리역 서쪽으로는 구로구 천왕역까지 지하로 이어진다.",
+   "operator": "서울교통공사",
+   "cars_per_train": 8,
+   "car_length_m": 19.5,
+   "headway_peak_min": 4,
+   "headway_offpeak_min": 7,
+   "train_body_color_hex": "#C4C8CC",
+   "train_stripe_color_hex": "#747F00",
+   "livery_ko": "서울교통공사 7000호대 전동차. 1~2차분은 스테인리스, 3~7차분은 알루미늄 차체(무도장 은색)이고 7호선 올리브색 띠를 둘렀다. 띠 색은 노선색 기준 근사값.",
+   "osm_match_hint": "route=subway, name=\"서울 지하철 7호선\", ref=7; 선로 railway=subway, tunnel=yes",
+   "confidence": "high",
+   "note": "온수~신풍 구간이 2000-02-29에 개통하면서 광명의 두 역도 함께 문을 열었다. 광명사거리역의 개통 당시 이름은 '광명역'이었고, KTX 광명역 개통을 앞둔 2004-03-29에 '광명사거리역'으로 바뀌었다. 광명사거리역은 2면 3선(혼합식), 철산역은 곡선 상대식 2면 2선. 7000호대 제원: 8량 1편성, 차체 길이 19,500mm. 배차간격(첨두 약 4분, 평시 약 7분)은 출처 없는 추정치다. 검증: 온수~신풍 개통일(2000-02-29), 천왕·광명사거리·철산·가산디지털단지 4개 역의 동시 개통, 광명→광명사거리 개명일(2004-03-29)을 위키백과에서 확인했다. 광명사거리역 좌표(37°28′45″N 126°51′17″E)는 광명동 소재로 확인. 추가: 가산디지털단지역은 개통 당시 '가리봉역'이었고 2005-07-01에 이름이 바뀌었다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/서울_지하철_7호선",
+    "https://ko.wikipedia.org/wiki/광명사거리역",
+    "https://ko.wikipedia.org/wiki/철산역",
+    "https://namu.wiki/w/서울교통공사%207000호대%20전동차"
+   ],
+   "stations": [
+    {
+     "name_ko": "천왕역",
+     "lat": 37.4866,
+     "lon": 126.8387,
+     "opened_year": 2000,
+     "opened_month": 2,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "completed",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/서울_지하철_7호선"
+     ]
+    },
+    {
+     "name_ko": "광명사거리역",
+     "lat": 37.47917,
+     "lon": 126.85472,
+     "opened_year": 2000,
+     "opened_month": 2,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "completed",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/광명사거리역"
+     ]
+    },
+    {
+     "name_ko": "철산역",
+     "lat": 37.47611,
+     "lon": 126.86806,
+     "opened_year": 2000,
+     "opened_month": 2,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "completed",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/철산역",
+      "https://ko.wikipedia.org/wiki/서울_지하철_7호선"
+     ]
+    },
+    {
+     "name_ko": "가산디지털단지역",
+     "lat": 37.4815,
+     "lon": 126.8827,
+     "opened_year": 2000,
+     "opened_month": 2,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "completed",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/서울_지하철_7호선"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gyeongbu_hsr_ktx",
+   "name_ko": "경부고속선 (KTX)",
+   "kind": "high_speed",
+   "line_color_hex": "#204080",
+   "opened_year_in_gwangmyeong": 2004,
+   "opened_month": 4,
+   "status": "completed",
+   "level_in_gwangmyeong": "mixed. 북쪽은 금천구청역 부근에서 경부선과 갈라지는 시흥연결선(2.8km)이 지하로 안양천 밑을 지나고, 광명역에 가까워지면서 지상/개착 구간으로 나온다. 광명역은 지상 2층·지하 2층 역사이고 승강장은 지하(4면 8선, 3상대식)다. 남쪽은 역을 나오자마자 일직터널(약 10.3km)로 들어가 광명시 남서부를 지하로 지난다. 광명시 안에서 KTX가 지상에 드러나는 곳은 광명역과 그 앞뒤 짧은 구간뿐이다.",
+   "operator": "한국철도공사(코레일)",
+   "cars_per_train": 10,
+   "car_length_m": 23.5,
+   "headway_peak_min": 10,
+   "headway_offpeak_min": 20,
+   "train_body_color_hex": "#FFFFFF",
+   "train_stripe_color_hex": "#1F4E9A",
+   "livery_ko": "흰색 차체에 청색 계열 띠(근사값). 대표 편성: KTX-산천 10량. KTX-청룡(2024~)은 8량, KTX-I은 20량.",
+   "osm_match_hint": "railway=rail + highspeed=yes, name=\"경부고속선\"(북측 연결부는 \"시흥연결선\"으로 붙었을 수 있음); route=train 관계 \"KTX 경부선\"/\"KTX 호남선\"",
+   "confidence": "high",
+   "note": "광명역은 2004-04-01에 보통역으로 영업을 시작했다(광명역로 21, 일직동). 호남·전라·경전 KTX도 이 선로로 지난다. SRT는 광명역을 지나지 않는다. 고속선 운행량은 하루 147회(2026-08 보도)이고, 배차간격은 이 수치로 거칠게 나눈 추정치다. 도색 hex는 근사값이다. 검증: 개통일 2004-04-01, 좌표 37°24′59″N 126°53′6″E, 지하 4면 8선 승강장을 위키백과에서 확인. '금천구청역(분기점)'은 KTX가 서지 않는 분기 지점이라 역 목록에서 뺐다. 선로 형상은 OSM 선형으로 그린다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/광명역",
+    "https://namu.wiki/w/광명역",
+    "https://namu.wiki/w/일직터널(경부고속선)",
+    "https://view.asiae.co.kr/article/2026081917083695019"
+   ],
+   "stations": [
+    {
+     "name_ko": "광명역",
+     "lat": 37.41639,
+     "lon": 126.885,
+     "opened_year": 2004,
+     "opened_month": 4,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "completed",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/광명역",
+      "https://namu.wiki/w/광명역"
+     ]
+    },
+    {
+     "name_ko": "천안아산역",
+     "lat": 36.7945,
+     "lon": 127.1044,
+     "opened_year": 2004,
+     "opened_month": 4,
+     "level": "surface",
+     "in_gwangmyeong": false,
+     "status": "completed",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Cheonan%E2%80%93Asan_station"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "line1_gwangmyeong_shuttle",
+   "name_ko": "수도권 전철 1호선 광명셔틀",
+   "kind": "commuter",
+   "line_color_hex": "#0052A4",
+   "opened_year_in_gwangmyeong": 2006,
+   "opened_month": 12,
+   "status": "completed",
+   "level_in_gwangmyeong": "mixed. KTX와 같은 시흥연결선을 쓴다. 금천구청 쪽에서 지하로 들어가 안양천 밑을 지나 광명 소하동·일직동 쪽으로 넘어오고, 광명역 지하 승강장에 닿는다.",
+   "operator": "한국철도공사(코레일)",
+   "cars_per_train": 4,
+   "car_length_m": 19.5,
+   "headway_peak_min": 60,
+   "headway_offpeak_min": 60,
+   "train_body_color_hex": "#C8CCD0",
+   "train_stripe_color_hex": "#0052A4",
+   "livery_ko": "코레일 319000호대 전동차 4량 편성. 스테인리스 은색 차체에 청색 계열 띠(근사값).",
+   "osm_match_hint": "route=train/subway, name에 \"광명셔틀\" 또는 \"수도권 전철 1호선\"(ref=1); 선로는 name=\"시흥연결선\" 또는 \"경부고속선\"",
+   "confidence": "high",
+   "note": "2006-12-15에 용산~광명 셔틀로 시작했고, 2008-12-01부터 영등포~광명으로 줄이고 4량 1편성으로 바꿨다. 대략 1시간 간격으로 다닌다. 차체 길이 19.5m는 추정치. 영등포역·금천구청역의 연도(1974)는 1호선 전철 개통 기준이며, 금천구청역은 옛 시흥역이다. 검증: 운행 시작일(2006-12-15, 용산~광명)과 2008-12-01 영등포~광명 단축·4량 변경을 위키백과(광명역)에서 확인했다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/광명역",
+    "https://namu.wiki/w/수도권%20전철%201호선/광명셔틀",
+    "https://namu.wiki/w/광명셔틀"
+   ],
+   "stations": [
+    {
+     "name_ko": "영등포역",
+     "lat": 37.5157,
+     "lon": 126.9076,
+     "opened_year": 1974,
+     "opened_month": 8,
+     "level": "surface",
+     "in_gwangmyeong": false,
+     "status": "completed",
+     "sources": [
+      "https://namu.wiki/w/수도권%20전철%201호선/광명셔틀"
+     ]
+    },
+    {
+     "name_ko": "금천구청역",
+     "lat": 37.4556,
+     "lon": 126.8943,
+     "opened_year": 1974,
+     "opened_month": 8,
+     "level": "surface",
+     "in_gwangmyeong": false,
+     "status": "completed",
+     "sources": [
+      "https://namu.wiki/w/수도권%20전철%201호선/광명셔틀"
+     ]
+    },
+    {
+     "name_ko": "광명역",
+     "lat": 37.41639,
+     "lon": 126.885,
+     "opened_year": 2006,
+     "opened_month": 12,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "completed",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/광명역"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sinansan_line",
+   "name_ko": "신안산선",
+   "kind": "commuter",
+   "line_color_hex": "#F04938",
+   "opened_year_in_gwangmyeong": 2029,
+   "status": "under_construction",
+   "level_in_gwangmyeong": "underground: 전 구간 지하. 대부분의 정거장은 대심도다. 광명역 정거장은 KTX 광명역 옆 지하에 있다. 학온 정거장은 지상 대합실에 지하 2층 승강장 구조(나무위키).",
+   "operator": "넥스트레인(민간투자 사업시행자)",
+   "livery_ko": "차량 제작사는 다원시스와의 계약을 해지한 뒤 2026년 1월 현대로템으로 다시 정해졌다. 도색은 확정되지 않았다.",
+   "osm_match_hint": "railway=construction + construction=rail/subway, name=\"신안산선\"",
+   "confidence": "low",
+   "note": "본선은 여의도…석수–광명–목감…한양대, 지선은 광명–학온–매화–시흥시청이다. 학온역(광명시 가학동 847-55)은 광명시흥테크노밸리를 위한 추가역이고, 신안산선과 월곶판교선(경강선)이 함께 선다. 노선색 #F04938은 잠정값이며, 편성 량수와 배차간격은 확인하지 못했다. 학온·목감·매화 좌표는 추정(approx)이다. 2025-04-11 광명역을 지난 직후 지점(일직동, 5-2공구)에서 공사현장이 붕괴했고, 2025-12-18에는 여의도 현장에서도 사고가 났다. 검증: 개통 목표를 2028-12에서 2029(연도만)로 바꿨다. 시사저널e(2026-08-21)에 따르면 사업시행자는 공사기간을 2028년 12월까지 늘리는 안을 추진 중이다. 현대로템 차량의 최종 납기도 2028년 말이라, 시운전을 거치면 영업 개통은 2029년 이후가 된다. 같은 기사는 '2030년 개통도 장담 못 한다'고 썼고, 나무위키 학온 정거장 문서도 신안산선 개통을 '2030년 이후'로 적었다. 공식 확정 연도는 아직 없다. 전체 공정률은 72.58%(2026-06), 광명 붕괴 구간(5-2공구) 본공사는 2026-09 재개 예정이라는 보도가 있다.",
+   "sources": [
+    "https://www.sisajournal-e.com/news/articleView.html?idxno=423206",
+    "https://v.daum.net/v/t8umTEaeZj",
+    "https://v.daum.net/v/t4k1Ag2ugm",
+    "https://namu.wiki/w/신안산선",
+    "https://namu.wiki/w/신안산선/학온%20정거장",
+    "https://www.kyeonggi.com/article/20220413580139",
+    "http://www.kmtimes.net/news/articleView.html?idxno=22200"
+   ],
+   "stations": [
+    {
+     "name_ko": "석수역",
+     "lat": 37.4352,
+     "lon": 126.9021,
+     "opened_year": 2029,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://namu.wiki/w/신안산선"
+     ]
+    },
+    {
+     "name_ko": "광명역",
+     "lat": 37.4165,
+     "lon": 126.8832,
+     "opened_year": 2029,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "under_construction",
+     "sources": [
+      "https://namu.wiki/w/신안산선",
+      "http://www.kmtimes.net/news/articleView.html?idxno=22200"
+     ]
+    },
+    {
+     "name_ko": "목감역",
+     "lat": 37.3945,
+     "lon": 126.848,
+     "opened_year": 2029,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://namu.wiki/w/신안산선"
+     ]
+    },
+    {
+     "name_ko": "학온역",
+     "lat": 37.4265,
+     "lon": 126.856,
+     "opened_year": 2029,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "under_construction",
+     "sources": [
+      "https://namu.wiki/w/신안산선/학온%20정거장",
+      "https://www.kyeonggi.com/article/20220413580139"
+     ]
+    },
+    {
+     "name_ko": "매화역",
+     "lat": 37.425,
+     "lon": 126.803,
+     "opened_year": 2029,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://v.daum.net/v/t4k1Ag2ugm"
+     ]
+    },
+    {
+     "name_ko": "시흥시청역",
+     "lat": 37.3815,
+     "lon": 126.8056,
+     "opened_year": 2029,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://namu.wiki/w/신안산선"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wolgot_pangyo_line",
+   "name_ko": "월곶판교선 (경강선 시흥~성남 구간)",
+   "kind": "commuter",
+   "line_color_hex": "#0054A6",
+   "opened_year_in_gwangmyeong": 2029,
+   "opened_month": 12,
+   "status": "under_construction",
+   "level_in_gwangmyeong": "underground: 전 구간 지하(총 39.8km, 역 11개).",
+   "operator": "국가철도공단(건설), 운영은 한국철도공사 예정",
+   "livery_ko": "차량과 도색은 확인하지 못했다.",
+   "osm_match_hint": "railway=construction, name=\"월곶판교선\" 또는 \"경강선\"",
+   "confidence": "medium",
+   "note": "'계획'이 아니라 공사 중인 노선이다. 개통 목표는 2029년 12월, 2026년 3월 누적 공정률은 22.3%. 광명 부근 역 순서는 시흥시청–매화–학온–광명–만안(안양)이다. 광명~시흥시청 구간은 신안산선 지선과 함께 쓴다. 노선색은 경강선 #0054A6(나무위키)이며, 위키백과 틀에는 #003DA5로 되어 있다. 학온·매화·만안 좌표는 추정(approx)이다. 검증: 2029-12 목표와 공정률 22.3%를 세계일보(2026-04-20)와 경인일보에서 확인했다. 추가: 인천투데이(2025-05-20)에 따르면 원래 목표는 2027~2028년이었다. 붕괴한 신안산선 구간을 경강선이 함께 쓰기 때문에 2029년 개통도 불확실하다는 국가철도공단 설명이 있다. 학온역에 두 노선이 모두 서는 것은 나무위키로 확인했다.",
+   "sources": [
+    "https://www.segye.com/newsView/20260420518553",
+    "https://www.kyeongin.com/article/1693492",
+    "https://www.incheontoday.com/news/articleView.html?idxno=302540",
+    "https://ko.wikipedia.org/wiki/월곶-판교선",
+    "https://namu.wiki/w/신안산선/학온%20정거장"
+   ],
+   "stations": [
+    {
+     "name_ko": "시흥시청역",
+     "lat": 37.3815,
+     "lon": 126.8056,
+     "opened_year": 2029,
+     "opened_month": 12,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/월곶-판교선"
+     ]
+    },
+    {
+     "name_ko": "매화역",
+     "lat": 37.425,
+     "lon": 126.803,
+     "opened_year": 2029,
+     "opened_month": 12,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/월곶-판교선"
+     ]
+    },
+    {
+     "name_ko": "학온역",
+     "lat": 37.4265,
+     "lon": 126.856,
+     "opened_year": 2029,
+     "opened_month": 12,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "under_construction",
+     "sources": [
+      "https://namu.wiki/w/신안산선/학온%20정거장"
+     ]
+    },
+    {
+     "name_ko": "광명역",
+     "lat": 37.4163,
+     "lon": 126.8835,
+     "opened_year": 2029,
+     "opened_month": 12,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "under_construction",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/월곶-판교선",
+      "https://www.segye.com/newsView/20260420518553"
+     ]
+    },
+    {
+     "name_ko": "만안역",
+     "lat": 37.4,
+     "lon": 126.91,
+     "opened_year": 2029,
+     "opened_month": 12,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "under_construction",
+     "sources": [
+      "https://ko.wikipedia.org/wiki/월곶-판교선"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "susaek_gwangmyeong_hsr",
+   "name_ko": "수색~광명 고속철도",
+   "kind": "high_speed",
+   "line_color_hex": "#204080",
+   "opened_year_in_gwangmyeong": 2036,
+   "status": "planned",
+   "level_in_gwangmyeong": "underground: 수색–서울역–용산–광명을 잇는 24.5km 지하 고속철도 전용선. 광명시 안에서 지나는 경로(동 단위)는 출처로 확인하지 못했다.",
+   "operator": "국토교통부 사업(운영 주체 미정)",
+   "osm_match_hint": "OSM에 아직 없을 가능성이 높음",
+   "confidence": "high",
+   "note": "국토교통부가 2026-08-19 기본계획을 확정·고시했다. 사업비 3조 2,330억 원, 개통 목표 2036년으로 타임라인(2035) 밖이다. 개통하면 서울~광명 KTX 운행시간이 약 9분 15초 줄어든다. 검증: 확정일, 24.5km, 사업비, 2036년 목표를 뉴시스(2026-08-18)와 한국철도일보로 다시 확인했다. 원래 적혀 있던 '일직동·소하동 지하 경유'는 출처가 없어 뺐다.",
+   "sources": [
+    "https://www.newsis.com/view/NISX20260818_0003752118",
+    "https://www.korearailroad.kr/news/articleView.html?idxno=182380",
+    "https://view.asiae.co.kr/article/2026081917083695019"
+   ],
+   "stations": [
+    {
+     "name_ko": "광명역",
+     "lat": 37.41639,
+     "lon": 126.885,
+     "opened_year": 2036,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "planned",
+     "sources": [
+      "https://www.newsis.com/view/NISX20260818_0003752118"
+     ]
+    },
+    {
+     "name_ko": "용산역",
+     "lat": 37.5298,
+     "lon": 126.9648,
+     "opened_year": 2036,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "planned",
+     "sources": [
+      "https://www.newsis.com/view/NISX20260818_0003752118"
+     ]
+    },
+    {
+     "name_ko": "서울역",
+     "lat": 37.5547,
+     "lon": 126.9707,
+     "opened_year": 2036,
+     "level": "underground",
+     "in_gwangmyeong": false,
+     "status": "planned",
+     "sources": [
+      "https://www.newsis.com/view/NISX20260818_0003752118"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gwangmyeong_siheung_line",
+   "name_ko": "광명시흥선",
+   "kind": "subway",
+   "line_color_hex": "#888888",
+   "opened_year_in_gwangmyeong": 2036,
+   "status": "planned",
+   "level_in_gwangmyeong": "미정. 지하/지상 여부와 차량 방식은 발표되지 않았다.",
+   "osm_match_hint": "OSM에 없음",
+   "confidence": "low",
+   "note": "검증 중 추가. KTX광명역에서 광명시흥 3기 신도시와 광명사거리역(7호선)을 거쳐 신도림역까지 가는 17.9km, 16개 정거장 도시철도 구상이다(2026-04-11 보도). 나무위키에 따르면 LH가 연구용역으로 노선안을 검토하는 단계이고, 확정 정거장·사업비·개통 목표 연도는 발표되지 않았다. opened_year 2036은 실제 목표가 아니라 '2035 타임라인 밖'을 뜻하는 표시용 값이므로 지도에 그리지 말 것. 노선색 #888888도 공식 색이 아닌 임의 회색. 관련 계획으로 제2경인선(인천 청학~광명 노온사동)이 광명시흥선과 연계하는 방안이 거론되지만(경기신문), 역시 목표 연도가 없는 계획 단계다.",
+   "sources": [
+    "https://v.daum.net/v/20260411050314405",
+    "https://namu.wiki/w/광명시흥선",
+    "https://www.kgnews.co.kr/news/article.html?no=747505"
+   ],
+   "stations": [
+    {
+     "name_ko": "광명역",
+     "lat": 37.41639,
+     "lon": 126.885,
+     "opened_year": 2036,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "planned",
+     "sources": [
+      "https://namu.wiki/w/광명시흥선"
+     ]
+    },
+    {
+     "name_ko": "광명사거리역",
+     "lat": 37.47917,
+     "lon": 126.85472,
+     "opened_year": 2036,
+     "level": "underground",
+     "in_gwangmyeong": true,
+     "status": "planned",
+     "sources": [
+      "https://namu.wiki/w/광명시흥선",
+      "https://v.daum.net/v/20260411050314405"
+     ]
+    }
+   ]
+  }
+ ],
+ "bus": {
+  "categories": [
+   {
+    "name_ko": "경기 일반형 시내버스",
+    "body_color_hex": "#18BF74",
+    "description_ko": "경기도 G-BUS 표준도색: 초록(Pantone 334 C)과 흰색. 광명 관내 일반 노선의 주 운수사는 화영운수다. 개별 노선 번호 목록은 이번 검증에서 다시 확인하지 못했다."
+   },
+   {
+    "name_ko": "경기 좌석버스",
+    "body_color_hex": "#3C96D5",
+    "description_ko": "G-BUS 표준도색: 파랑과 흰색. 광명에 좌석 200번이 있다는 내용은 이번 검증에서 다시 확인하지 못했다(low)."
+   },
+   {
+    "name_ko": "경기 직행좌석버스(광역)",
+    "body_color_hex": "#EE2737",
+    "description_ko": "G-BUS 표준도색: 빨강(Pantone 1788 C)과 흰색. 광명 노선에는 8507, G9633 등이 있다."
+   },
+   {
+    "name_ko": "경기 마을버스",
+    "body_color_hex": "#FED70F",
+    "description_ko": "G-BUS 표준 노랑. 다만 마을버스는 자체 도색이 많다."
+   },
+   {
+    "name_ko": "광역급행버스(M버스)",
+    "body_color_hex": "#FFFFFF",
+    "description_ko": "신뢰도 낮음(low). 광명을 지나는 M버스 노선은 확인하지 못했다. 도색도 업체마다 달라 출처가 없다."
+   },
+   {
+    "name_ko": "서울 간선버스",
+    "body_color_hex": "#0068B7",
+    "description_ko": "파랑. 광명공영차고지(하안동)에서 출발하는 503, 504 등이 광명과 서울 도심을 잇는다. 나무위키에 따르면 광명에서는 서울 시내버스 노선이 지역 운수사(화영운수) 노선보다 많고, 서울 운수사 여러 곳이 광명에 차고지를 두고 있다. hex는 근사값."
+   },
+   {
+    "name_ko": "서울 지선버스",
+    "body_color_hex": "#53B332",
+    "description_ko": "초록. 광명공영차고지에서 출발하는 5536, 5714 등이 있다. hex는 근사값."
+   },
+   {
+    "name_ko": "서울 광역버스",
+    "body_color_hex": "#E60012",
+    "description_ko": "빨강. 신뢰도 낮음(low): 광명을 지나는 서울 광역버스 노선은 확인하지 못했다. hex는 근사값."
+   }
+  ],
+  "notable_routes": [
+   {
+    "number": "503",
+    "category": "서울 간선버스",
+    "path_desc_ko": "광명공영차고지(하안동) – 하안주공아파트 – 광명시민체육관 – … – 서울역. 이번 검증에서 다시 확인하지 못했다.",
+    "headway_min": 7
+   },
+   {
+    "number": "504",
+    "category": "서울 간선버스",
+    "path_desc_ko": "광명공영주차장(하안동) – 광명우체국 – 광명시청 – 철산역 – … – 남대문. 이번 검증에서 다시 확인하지 못했다.",
+    "headway_min": 7
+   },
+   {
+    "number": "5714",
+    "category": "서울 지선버스",
+    "path_desc_ko": "광명공영차고지(하안동)에서 출발하는 지선. 서울 쪽 종점은 확인하지 못했다."
+   },
+   {
+    "number": "5536",
+    "category": "서울 지선버스",
+    "path_desc_ko": "광명공영차고지에서 출발하는 지선. 서울 쪽 종점은 확인하지 못했다."
+   },
+   {
+    "number": "8507",
+    "category": "경기 직행좌석버스",
+    "path_desc_ko": "KTX광명역 – 서해안고속도로 – 강남순환로 – 사당역."
+   },
+   {
+    "number": "G9633",
+    "category": "경기 직행좌석버스",
+    "path_desc_ko": "석수동 버스공영차고지(안양) – 광명역 – 서해안고속도로·강남순환로 – 서초구청."
+   }
+  ],
+  "sources": [
+   "https://namu.wiki/w/광명시/교통",
+   "https://namu.wiki/w/경기도%20시내버스/도색",
+   "https://namu.wiki/w/서울%20버스%20503",
+   "https://namu.wiki/w/서울%20버스%20504",
+   "https://bustrain.kr/citybus/14290",
+   "https://bustrain.kr/citybus/14291",
+   "https://namu.wiki/w/광명%20버스%208507",
+   "https://namu.wiki/w/광명%20버스%20G9633?uuid=9a8957b8-6057-4bc8-9c36-4166b51f0f94"
+  ]
+ },
+ "roads": [
+  {
+   "name_ko": "서해안고속도로 (고속국도 제15호선)",
+   "kind": "expressway",
+   "opened_year_in_gwangmyeong": 1995,
+   "status": "completed",
+   "level_desc": "광명 일직동·소하동을 지나 북쪽 서울 금천 방향으로 간다. 대부분 지상(성토·교량)이다. 1995-12-28 안산JC~일직JC 9.1km 개통. 1998-11-25 일직JC~금천IC 5.2km 개통. 2004-03-15 광명역IC, 2016-07-03 소하JC 개통. 광명시 안에는 광명역IC·일직JC·소하JC가 있다. 검증: '미확인'으로 남아 있던 일직JC~금천IC 개통일을 위키백과 연혁의 1998-11-25로 채웠다. 1995년 개통 당시 이 구간은 고속국도 제16호선(1996년부터 이름은 서울~안산고속도로)이었고, 2001-08-25에 서해안고속도로로 편입됐다. 전 구간 개통은 2001-12-21.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/서해안고속도로"
+   ]
+  },
+  {
+   "name_ko": "제2경인고속도로 (고속국도 제110호선)",
+   "kind": "expressway",
+   "opened_year_in_gwangmyeong": 1994,
+   "status": "completed",
+   "level_desc": "1994-07-07 서창JC~광명IC 10.8km 개통. 1995-12-28 광명IC~석수IC 4.7km(일직JC 포함) 개통. 광명 안에 광명IC와 일직JC가 있다. 광명터널(소하동, 성남 방향 912m / 인천 방향 888m, 1995년 준공)을 빼면 지상 구간이다. 검증: 개통일 두 개와 광명터널 제원을 위키백과에서 확인했다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/제2경인고속도로",
+    "https://namu.wiki/w/제2경인고속도로"
+   ]
+  },
+  {
+   "name_ko": "강남순환로 (강남순환도시고속도로)",
+   "kind": "urban_expressway",
+   "opened_year_in_gwangmyeong": 2016,
+   "status": "completed",
+   "level_desc": "2016-07-03 1단계 개통: 광명 소하동(소하JC)~서초구 우면동, 금천요금소~선암요금소 약 13.8km. 광명 쪽 시점은 소하JC에서 서해안고속도로와 이어지는 지상·고가 연결부이고, 안양천을 건넌 뒤 서울 쪽은 대부분 산악 터널이다. 2007년 착공. 검증: 개통일 2016-07-03을 서울신문과 서울시 발표로 확인했다.",
+   "sources": [
+    "https://www.seoul.co.kr/news/society/enviroment/2016/07/03/20160703500037",
+    "https://news.seoul.go.kr/citybuild/archives/231148?listPage=3",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100209"
+   ]
+  },
+  {
+   "name_ko": "수원광명고속도로",
+   "kind": "expressway",
+   "opened_year_in_gwangmyeong": 2016,
+   "status": "completed",
+   "level_desc": "2016-04-29 14시 개통. 화성 봉담~광명 소하동 27.38km, 4~6차로. 2011년 4월 착공했고, 전 구간의 약 66%가 터널·교량이다. 광명 안의 구조(지상/터널)와 정확한 접속 지점은 확인하지 못했다. 검증: '2016년 4월 준공'을 개통일 2016-04-29로 구체화했다(서울신문, KDI 경제교육·정보센터).",
+   "sources": [
+    "https://www.seoul.co.kr/news/economy/2016/04/28/20160428500151",
+    "https://eiec.kdi.re.kr/policy/materialView.do?num=153596",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03130044"
+   ]
+  },
+  {
+   "name_ko": "광명서울고속도로",
+   "kind": "expressway",
+   "opened_year_in_gwangmyeong": 2027,
+   "status": "under_construction",
+   "level_desc": "광명시 가학동에서 부천을 거쳐 서울 강서구 방화동까지 20.2km. 2019-03-27 착공. 준공 목표는 2024년에서 2026년 8월, 다시 2027년 12월로 밀렸다. 광명 구간에서는 원광명지하차도를 공사 중이다. 검증: 2027년 12월 목표는 한국경제(2025-06)와 MTN 보도로 확인했다. 2026년에 나온 새 연기 발표는 찾지 못했다. 다만 공정률이 30%에 못 미친다는 보도가 있어 추가 지연 가능성이 크다(신뢰도 중간 이하).",
+   "sources": [
+    "https://www.hankyung.com/article/202506020775i",
+    "https://news.mtn.co.kr/news-detail/2024012200580345192",
+    "https://www.newstomato.com/ReadNews.aspx?no=1217303"
+   ]
+  },
+  {
+   "name_ko": "광명로",
+   "kind": "arterial",
+   "opened_year_in_gwangmyeong": 1972,
+   "status": "completed",
+   "level_desc": "1968~1972년 서울시 개봉지구 택지개발 때 만든 광명시 최초의 포장도로다. 개봉교에서 시흥시 경계까지 가며, 광명사거리에서 오리로와 만난다. 지상 도로. 개통 연도가 1968~1972년 범위라 1972로 넣었다(범위값).",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100215?search=A2/3"
+   ]
+  },
+  {
+   "name_ko": "오리로",
+   "kind": "arterial",
+   "opened_year_in_gwangmyeong": 1984,
+   "status": "completed",
+   "level_desc": "광명3동 천왕교에서 철산·하안·소하동을 거쳐 안양 박달동까지 14.6km. 광명에서 가장 긴 남북 도로다. 1982년 소하2동 구간을 먼저 만들고 1984년에 개통했다. 옛 이름은 광덕로이고 2009년 도로명 정비 때 오리로가 됐다. 대부분 지상.",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03101700"
+   ]
+  },
+  {
+   "name_ko": "서독로",
+   "kind": "arterial",
+   "opened_year_in_gwangmyeong": 2004,
+   "status": "completed",
+   "level_desc": "학온동 가학삼거리에서 KTX 광명역까지 약 3.97km, 왕복 4~6차선. 광명역 접근로로 2004년에 준공했다. 서독터널(2003년 완공)을 지나고, 광명역IC에서 서해안고속도로와 이어진다.",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100227"
+   ]
+  },
+  {
+   "name_ko": "범안로",
+   "kind": "arterial",
+   "opened_year_in_gwangmyeong": 2001,
+   "status": "completed",
+   "level_desc": "신뢰도 낮음(low). 노온사동~하안동을 잇는 동서 도로이고 옛 이름은 노안로다. 개통 연도를 확인하지 못해, 가림터널 완공(2001년 11월)에서 가져온 추정치를 넣었다.",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc?search=A2%2F3"
+   ]
+  },
+  {
+   "name_ko": "금하로",
+   "kind": "arterial",
+   "opened_year_in_gwangmyeong": 1979,
+   "status": "completed",
+   "level_desc": "신뢰도 낮음(low). 시흥대교(금천구)와 광명 소하동·노온사동을 잇는 동서 도로다. 개통 연도를 확인하지 못해 시흥대교 준공 연도(1979)를 넣었다. 지상 도로.",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc?search=A2%2F3",
+    "https://namu.wiki/w/시흥대교"
+   ]
+  },
+  {
+   "name_ko": "철산대교",
+   "kind": "bridge",
+   "opened_year_in_gwangmyeong": 1977,
+   "status": "completed",
+   "level_desc": "안양천을 건너 광명 철산동과 서울 금천구 가산동을 잇는 교량. 1977년 준공. 검증: 디지털광명문화대전으로 1977년을 확인했다.",
+   "sources": [
+    "http://www.grandculture.net/gwangmyeong/toc/GC03100203",
+    "https://namu.wiki/w/철산대교"
+   ]
+  },
+  {
+   "name_ko": "시흥대교",
+   "kind": "bridge",
+   "opened_year_in_gwangmyeong": 1979,
+   "status": "completed",
+   "level_desc": "안양천을 건너 광명 소하동과 서울 금천구 시흥동을 잇는 교량. 국도 1호선의 일부로 금하로·서부간선도로와 연결된다. 1979년 준공, 2016년 확장 뒤 왕복 6차로. 검증: 연도는 나무위키로 확인했다. 광명 쪽 연결지를 '하안·소하'에서 '소하동'으로 고쳤다.",
+   "sources": [
+    "https://namu.wiki/w/시흥대교"
+   ]
+  },
+  {
+   "name_ko": "광명대교",
+   "kind": "bridge",
+   "opened_year_in_gwangmyeong": 1987,
+   "status": "completed",
+   "level_desc": "안양천을 건너 광명과 서울 구로구를 잇는 교량. 1987년 준공. 검증: 디지털광명문화대전으로 1987년을 확인했다.",
+   "sources": [
+    "https://namu.wiki/w/광명대교",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc?search=A2%2F3"
+   ]
+  },
+  {
+   "name_ko": "하안로",
+   "kind": "arterial",
+   "opened_year_in_gwangmyeong": 1990,
+   "status": "completed",
+   "level_desc": "신뢰도 낮음(low). 하안동을 가로지르는 약 4.5km 도로. 개통 연도를 확인하지 못해 하안지구 택지개발 시기에서 가져온 추정치를 넣었다.",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc?search=A2%2F3"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1125 @@
+{
+ "zones": [
+  {
+   "id": "nt-all",
+   "name_ko": "광명재정비촉진지구(광명뉴타운) 전체",
+   "kind": "redevelopment",
+   "center_lat": 37.48,
+   "center_lon": 126.8575,
+   "approx_radius_m": 900,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "1968년 시작된 개봉지구 토지구획정리 이후 1970년대 초부터 들어선 단독·다세대 저층주택 밀집지",
+   "after_desc_ko": "23개 구역 중 11개 구역이 고층 아파트 단지로 재개발(2021~2029 입주), 12개 구역은 해제",
+   "construction_start_year": 2017,
+   "completion_year": 2029,
+   "status": "under_construction",
+   "confidence": "medium",
+   "note": "재정비촉진지구 지정 2007, 촉진계획 결정·고시 2009.12. 해제: 2013.1(6R·17R·18C·19C·21C), 2015.1(3R·7R·8R·13R·20C·22C), 2015.4(23C, 경기도 직권) 총 12개. 권역 중심 좌표는 광명사거리역~철산역 사이 추정치. 검증: 첫 분양은 16R(광명에코자이위브) 2017.12로 확인되어 착공 2017 유지, 마지막 준공은 11R 2029.6 목표로 확인. 7R은 2015.1 해제 후 공공재개발 추진 중.",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://www.kyeongin.com/article/1228433",
+    "https://www.etoday.co.kr/news/view/1575230",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100008"
+   ]
+  },
+  {
+   "id": "nt-1r",
+   "name_ko": "광명뉴타운 1R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4885,
+   "center_lon": 126.8545,
+   "approx_radius_m": 260,
+   "area_m2": 210000,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "1970년대 구획정리 필지 위 단독·다세대 저층주택",
+   "after_desc_ko": "광명자이더샵포레나 3,585세대 고층 단지",
+   "demolition_year": 2021,
+   "construction_start_year": 2022,
+   "completion_year": 2025,
+   "status": "completed",
+   "successor_names": [
+    "광명자이더샵포레나"
+   ],
+   "confidence": "medium",
+   "note": "입주 기간 2025.12.15~2026.2.13으로 확인(하우징헤럴드 요약의 '2024.12'는 오기로 판단). 일반분양 2023.4. 철거·착공 연도는 역산 추정. 검증: 소재지가 광명1동 9-8(개봉역 인근)로 확인되어 좌표를 북쪽으로 약 300m 옮김(추정, ±400m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%20%EC%9E%90%EC%9D%B4%EB%8D%94%EC%83%B5%ED%8F%AC%EB%A0%88%EB%82%98",
+    "https://m.kukinews.com/article/view/kuk202304280155",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-2r",
+   "name_ko": "광명뉴타운 2R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4845,
+   "center_lon": 126.8625,
+   "approx_radius_m": 240,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "트리우스광명 3,344세대",
+   "demolition_year": 2020,
+   "construction_start_year": 2021,
+   "completion_year": 2024,
+   "status": "completed",
+   "successor_names": [
+    "트리우스광명"
+   ],
+   "confidence": "medium",
+   "note": "입주 2024.12(나무위키), 하우징헤럴드 2026.1 기사에서도 준공 완료 구역. 철거·착공 연도는 역산 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-4r",
+   "name_ko": "광명뉴타운 4R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4805,
+   "center_lon": 126.857,
+   "approx_radius_m": 190,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "광명사거리 인근 저층 주택·상가",
+   "after_desc_ko": "광명센트럴아이파크 1,957세대(최고 36층 11개동)",
+   "demolition_year": 2021,
+   "construction_start_year": 2022,
+   "completion_year": 2025,
+   "status": "completed",
+   "successor_names": [
+    "광명센트럴아이파크"
+   ],
+   "confidence": "medium",
+   "note": "입주 2025.11 확인(메트로신문 2025.11 기사·분양 사이트). 소재 광명동 346 일원. 철거·착공 연도는 역산 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.metroseoul.co.kr/article/20251113500329",
+    "https://www.i-park.com/gwangmyeong/supply"
+   ]
+  },
+  {
+   "id": "nt-5r",
+   "name_ko": "광명뉴타운 5R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4785,
+   "center_lon": 126.8615,
+   "approx_radius_m": 230,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "광명자이힐스테이트SKVIEW 2,878세대(공사중)",
+   "demolition_year": 2022,
+   "construction_start_year": 2023,
+   "completion_year": 2027,
+   "status": "under_construction",
+   "successor_names": [
+    "광명자이힐스테이트SKVIEW"
+   ],
+   "confidence": "medium",
+   "note": "준공 목표 2027.7(나무위키), 하우징헤럴드 2026.1 기사에서 공사 중 구역으로 확인. 철거·착공 연도는 역산 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-9r",
+   "name_ko": "광명뉴타운 9R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.483,
+   "center_lon": 126.853,
+   "approx_radius_m": 180,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "광명롯데캐슬시그니처 1,509세대(공사중)",
+   "demolition_year": 2023,
+   "construction_start_year": 2024,
+   "completion_year": 2027,
+   "status": "under_construction",
+   "successor_names": [
+    "광명롯데캐슬시그니처"
+   ],
+   "confidence": "medium",
+   "note": "준공 목표 2027.10. 검증: 하우징헤럴드 기사에서 착공 2024.2 확인(착공 연도 확정). 철거 연도는 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-10r",
+   "name_ko": "광명뉴타운 10R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.48,
+   "center_lon": 126.8515,
+   "approx_radius_m": 150,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "광명사거리 서측 저층 주택가",
+   "after_desc_ko": "호반써밋그랜드에비뉴 1,051세대",
+   "demolition_year": 2020,
+   "construction_start_year": 2021,
+   "completion_year": 2024,
+   "status": "completed",
+   "successor_names": [
+    "호반써밋그랜드에비뉴"
+   ],
+   "confidence": "medium",
+   "note": "입주 2024.10. 철거·착공 연도는 역산 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-11r",
+   "name_ko": "광명뉴타운 11R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4825,
+   "center_lon": 126.8595,
+   "approx_radius_m": 280,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가(뉴타운 최대 구역)",
+   "after_desc_ko": "힐스테이트 광명11(가칭) 4,291세대(지하5~지상42층 25개동, 공사중)",
+   "demolition_year": 2024,
+   "construction_start_year": 2025,
+   "completion_year": 2029,
+   "status": "under_construction",
+   "successor_names": [
+    "힐스테이트 광명11(가칭)"
+   ],
+   "confidence": "medium",
+   "note": "준공 목표 2029.6. 검증: 단지명을 '힐스테이트광명'에서 현대건설 발표명 '힐스테이트 광명11(가칭)'으로 수정. 일반분양 2025.10 예정으로 보도됨. 하우징헤럴드 2026.1 기사에서 공사 중 구역으로 분류. 철거·착공 연도는 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://magazine.hankyung.com/business/article/202509154884b",
+    "https://hogangnono.com/apt/fb466"
+   ]
+  },
+  {
+   "id": "nt-12r",
+   "name_ko": "광명뉴타운 12R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4775,
+   "center_lon": 126.8635,
+   "approx_radius_m": 210,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "철산역 서측 저층 주택가(뉴타운 중 유일한 철산동 구역)",
+   "after_desc_ko": "철산역자이 2,045세대(지하7~지상29층 19개동, 공사중)",
+   "demolition_year": 2024,
+   "construction_start_year": 2025,
+   "completion_year": 2029,
+   "status": "under_construction",
+   "successor_names": [
+    "철산역자이"
+   ],
+   "confidence": "medium",
+   "note": "준공 목표 2029.5. 검증: 뉴타운 중 유일하게 철산동 소재, 철산역 도보 5분으로 확인되어 좌표를 철산역 쪽으로 약 100m 옮김(추정, ±400m). 철거·착공 연도는 추정.",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03348886642299136"
+   ]
+  },
+  {
+   "id": "nt-14r",
+   "name_ko": "광명뉴타운 14R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.476,
+   "center_lon": 126.8545,
+   "approx_radius_m": 160,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "광명푸르지오포레나 1,187세대",
+   "demolition_year": 2019,
+   "construction_start_year": 2020,
+   "completion_year": 2023,
+   "status": "completed",
+   "successor_names": [
+    "광명푸르지오포레나"
+   ],
+   "confidence": "medium",
+   "note": "입주 2023.9. 철거·착공 연도는 역산 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-15r",
+   "name_ko": "광명뉴타운 15R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4775,
+   "center_lon": 126.856,
+   "approx_radius_m": 170,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "광명푸르지오센트베르 1,335세대",
+   "demolition_year": 2018,
+   "construction_start_year": 2019,
+   "completion_year": 2022,
+   "status": "completed",
+   "successor_names": [
+    "광명푸르지오센트베르"
+   ],
+   "confidence": "medium",
+   "note": "입주 2022.10. 철거·착공 연도는 역산 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-16r",
+   "name_ko": "광명뉴타운 16R구역",
+   "kind": "redevelopment",
+   "center_lat": 37.4745,
+   "center_lon": 126.85,
+   "approx_radius_m": 210,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "도덕산 자락 저층 주택가",
+   "after_desc_ko": "광명아크포레자이위브(분양명 광명에코자이위브) 2,104세대, 뉴타운 첫 입주",
+   "demolition_year": 2017,
+   "construction_start_year": 2017,
+   "completion_year": 2021,
+   "status": "completed",
+   "successor_names": [
+    "광명아크포레자이위브"
+   ],
+   "confidence": "medium",
+   "note": "입주 2021.4(뉴타운 최초). 검증: 뉴타운 첫 분양이 2017.12 '광명에코자이위브'(GS건설·두산건설)로 확인되어 착공 2017 유지(2018 초일 가능성 있음). 철거 연도는 추정. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.kyeongin.com/article/1228433",
+    "https://www.etoday.co.kr/news/view/1575230"
+   ]
+  },
+  {
+   "id": "nt-7r",
+   "name_ko": "광명7구역 공공재개발(구 뉴타운 7R)",
+   "kind": "redevelopment",
+   "center_lat": 37.474,
+   "center_lon": 126.858,
+   "approx_radius_m": 230,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가(2015 뉴타운 해제 후 존치)",
+   "after_desc_ko": "공공재개발 약 3,010세대 계획",
+   "completion_year": 2030,
+   "status": "planned",
+   "confidence": "low",
+   "note": "2015.1 뉴타운 구역 해제 후 공공재개발로 재추진(하우징헤럴드 2026.1 기사에서 진행 중 확인). 2024.12 정비구역 지정·GH 사업시행자 지정은 원 조사 내용으로 이번 검증에서 재확인하지 못함. 준공 2030은 나무위키 표기 목표로 지연 가능성 큼. 철거 전이며 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://www.homenews.co.kr/news/articleView.html?idxno=893"
+   ]
+  },
+  {
+   "id": "nt-3r",
+   "name_ko": "광명뉴타운 3R구역(해제)",
+   "kind": "redevelopment",
+   "center_lat": 37.4855,
+   "center_lon": 126.8575,
+   "approx_radius_m": 180,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "해제 후 저층 주택가 유지, 공공재개발 추진 중(착공 전)",
+   "status": "cancelled",
+   "confidence": "low",
+   "note": "2015.1 해제(나무위키 확인). 검증: 하우징헤럴드 2026.1 기사에 3R도 7R과 함께 공공재개발 추진 중으로 기재되어 비고에 반영. 착공 전이므로 지도에서는 저층 주택 유지. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-6r",
+   "name_ko": "광명뉴타운 6R구역(해제)",
+   "kind": "redevelopment",
+   "center_lat": 37.4815,
+   "center_lon": 126.8495,
+   "approx_radius_m": 180,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "해제 후 저층 주택가 유지, 가로주택정비 등 소규모 정비로 전환 추진",
+   "status": "cancelled",
+   "confidence": "low",
+   "note": "2013.1 1차 해제(나무위키 확인). 소규모 정비 방식 혼합 추진 중(하우징헤럴드). 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-8r",
+   "name_ko": "광명뉴타운 8R구역(해제)",
+   "kind": "redevelopment",
+   "center_lat": 37.472,
+   "center_lon": 126.856,
+   "approx_radius_m": 170,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "해제 후 저층 주택가 유지, 재정비 방식 재추진 중",
+   "status": "cancelled",
+   "confidence": "low",
+   "note": "2015.1 해제(나무위키 확인). 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "nt-13r",
+   "name_ko": "광명뉴타운 13R구역(해제)",
+   "kind": "redevelopment",
+   "center_lat": 37.473,
+   "center_lon": 126.862,
+   "approx_radius_m": 170,
+   "before_kind": "lowrise_housing",
+   "before_since_year": 1972,
+   "before_desc_ko": "저층 단독·다세대 주택가",
+   "after_desc_ko": "해제 후 가로주택정비사업 추진, 13-1·2구역은 통합 재개발로 시공사 선정",
+   "status": "cancelled",
+   "confidence": "low",
+   "note": "2015.1 해제(나무위키 확인). 검증: 13-1·2구역 LH참여형 가로주택정비 후 통합재개발 시공사(SK에코플랜트) 수주 보도 확인, 착공 전. 좌표 추정(±500m).",
+   "sources": [
+    "https://namu.wiki/w/광명뉴타운",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://www.sisaon.co.kr/news/articleView.html?idxno=177291"
+   ]
+  },
+  {
+   "id": "gm-guhoek",
+   "name_ko": "개봉지구 토지구획정리(광명동 저층주택지 형성)",
+   "kind": "resettlement",
+   "center_lat": 37.481,
+   "center_lon": 126.857,
+   "approx_radius_m": 900,
+   "before_kind": "farmland",
+   "before_since_year": 1960,
+   "before_desc_ko": "광명리·철산리 일부의 자연마을과 농경지",
+   "after_desc_ko": "'60만 단지'로 불린 구획정리 필지 위 단독·다세대 저층주택가, 1970년대 초부터 급속 건축. 이후 광명뉴타운 대상지",
+   "construction_start_year": 1968,
+   "completion_year": 1971,
+   "status": "completed",
+   "confidence": "medium",
+   "note": "검증: 디지털광명문화대전에서 1968.5.14 건설부공고 제64호로 개봉1지구(광명리·철산리 일부) 구획정리 시작 확인('고시'를 '공고'로 수정). 구획정리 완료 연도 1971은 확인하지 못한 추정. 1963 서울 도시계획구역 편입(나무위키 광명시/역사).",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100008",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C/%EC%97%AD%EC%82%AC"
+   ]
+  },
+  {
+   "id": "gm-apt-hanjin",
+   "name_ko": "광명아파트 → 광명한진아파트 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.4865,
+   "center_lon": 126.86,
+   "approx_radius_m": 120,
+   "area_m2": 42975,
+   "before_kind": "old_apartments",
+   "before_since_year": 1970,
+   "before_desc_ko": "경기도 최초 공동주택 광명아파트(5층 24동 1,000세대, 세대당 42.98㎡)",
+   "after_desc_ko": "광명한진아파트 10동 1,633세대",
+   "demolition_year": 1994,
+   "construction_start_year": 1994,
+   "completion_year": 1996,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "광명아파트",
+     "completion_year": 1970,
+     "floors": 5,
+     "building_count": 24,
+     "households": 1000,
+     "demolished_year": 1994
+    }
+   ],
+   "successor_names": [
+    "광명한진아파트"
+   ],
+   "confidence": "medium",
+   "note": "검증: 디지털광명문화대전에서 1970.5.18 기공, 1970.12.4 준공, 광명4동 200-6(광명로 877), 한진 1996.11 준공·1997 입주 모두 확인. 철거 연도(1994)는 준공 역산 추정. 좌표는 주소 기반 추정(±400m).",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03101272",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100008"
+   ]
+  },
+  {
+   "id": "cs4-shanty",
+   "name_ko": "철산4동 고지대 철거민 불량주택지",
+   "kind": "resettlement",
+   "center_lat": 37.4735,
+   "center_lon": 126.861,
+   "approx_radius_m": 350,
+   "before_kind": "forest",
+   "before_since_year": 1960,
+   "before_desc_ko": "도덕산 동측 구릉지",
+   "after_desc_ko": "서울 철거민이 모여 형성된 고지대 불량(저층)주택지",
+   "completion_year": 1975,
+   "status": "completed",
+   "confidence": "low",
+   "note": "나무위키 광명시/역사에 '철산4동 고지대, 하안동, 소하동(특히 시흥대교 주변)에 철거민이 모여 불량주택지대가 형성'으로만 기록(계획 이주 정착지는 아님). 검증: 원 출처로 든 위키백과 철산동 문서에는 해당 내용이 없어 출처에서 제외. 형성 연도(1975)와 범위는 추정. 좌표 추정.",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C/%EC%97%AD%EC%82%AC"
+   ]
+  },
+  {
+   "id": "cs-takji",
+   "name_ko": "철산 주공아파트 단지 개발(1980년대)",
+   "kind": "public_housing",
+   "center_lat": 37.477,
+   "center_lon": 126.871,
+   "approx_radius_m": 1000,
+   "before_kind": "farmland",
+   "before_since_year": 1960,
+   "before_desc_ko": "철산리 농경지와 자연마을",
+   "after_desc_ko": "대한주택공사 철산주공 1~13단지(5층 저층 1981~1985, 15층 12·13단지 1986)",
+   "construction_start_year": 1980,
+   "completion_year": 1986,
+   "status": "completed",
+   "confidence": "medium",
+   "note": "검증: 나무위키에서 1·2·3단지 1981.12, 4·8·9단지 1985.9, 7·10·11단지 1985.10, 12·13단지 1986.7 준공, 5·6단지 결번 확인. 착공 1980은 추정. 총 세대수 14,753은 단지별 합계와 일치.",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C/%EC%97%AD%EC%82%AC"
+   ]
+  },
+  {
+   "id": "cs-1",
+   "name_ko": "철산주공1단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.466,
+   "center_lon": 126.87,
+   "approx_radius_m": 300,
+   "before_kind": "old_apartments",
+   "before_since_year": 1981,
+   "before_desc_ko": "5층 저층 주공아파트 57동 2,440세대",
+   "after_desc_ko": "광명e편한세상센트레빌 27개동(최고 33층) 2,815세대",
+   "demolition_year": 2006,
+   "construction_start_year": 2007,
+   "completion_year": 2010,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공1단지",
+     "completion_year": 1981,
+     "floors": 5,
+     "building_count": 57,
+     "households": 2440,
+     "demolished_year": 2006
+    }
+   ],
+   "successor_names": [
+    "광명e편한세상센트레빌"
+   ],
+   "confidence": "medium",
+   "note": "소재 하안동(구 764, 현 864). 검증: 2010.1 입주, 27개동 2,815세대 확인. 이름의 '(하안본주공1단지)' 병기는 근거가 없어 삭제. 철거·착공 연도는 역산 추정. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%20e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81%20%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C",
+    "https://www.etoday.co.kr/news/view/2200855"
+   ]
+  },
+  {
+   "id": "cs-2",
+   "name_ko": "철산주공2단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.469,
+   "center_lon": 126.8735,
+   "approx_radius_m": 280,
+   "before_kind": "old_apartments",
+   "before_since_year": 1981,
+   "before_desc_ko": "5층 저층 주공아파트 45동 1,940세대",
+   "after_desc_ko": "철산푸르지오하늘채(1,264세대) 및 광명두산위브트레지움(1,248세대)",
+   "demolition_year": 2006,
+   "construction_start_year": 2007,
+   "completion_year": 2010,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공2단지",
+     "completion_year": 1981,
+     "floors": 5,
+     "building_count": 45,
+     "households": 1940,
+     "demolished_year": 2006
+    }
+   ],
+   "successor_names": [
+    "철산푸르지오하늘채",
+    "광명두산위브트레지움"
+   ],
+   "confidence": "medium",
+   "note": "소재 철산동 373/하안동 769(두산위브트레지움 현 하안동 863). 검증: 광명두산위브트레지움 입주 2009.11·1,248세대 확인(원 조사 '미확인' 보완), 철산푸르지오하늘채 2010 입주. 철거·착공 연도는 역산 추정. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC",
+    "https://kbland.kr/se/c/15971",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%20%EB%91%90%EC%82%B0%EC%9C%84%EB%B8%8C%20%ED%8A%B8%EB%A0%88%EC%A7%80%EC%9B%80"
+   ]
+  },
+  {
+   "id": "cs-3",
+   "name_ko": "철산주공3단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.4725,
+   "center_lon": 126.868,
+   "approx_radius_m": 280,
+   "before_kind": "old_apartments",
+   "before_since_year": 1981,
+   "before_desc_ko": "5층 저층 주공아파트 38동 1,900세대",
+   "after_desc_ko": "철산래미안자이 2,072세대",
+   "demolition_year": 2005,
+   "construction_start_year": 2006,
+   "completion_year": 2009,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공3단지",
+     "completion_year": 1981,
+     "floors": 5,
+     "building_count": 38,
+     "households": 1900,
+     "demolished_year": 2005
+    }
+   ],
+   "successor_names": [
+    "철산래미안자이"
+   ],
+   "confidence": "medium",
+   "note": "소재 철산동 552. 2009 입주(나무위키·월부 일치). 철거·착공 연도는 역산 추정. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC"
+   ]
+  },
+  {
+   "id": "cs-4",
+   "name_ko": "철산주공4단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.4745,
+   "center_lon": 126.8655,
+   "approx_radius_m": 130,
+   "before_kind": "old_apartments",
+   "before_since_year": 1985,
+   "before_desc_ko": "5층 저층 주공아파트 15동 470세대",
+   "after_desc_ko": "철산센트럴푸르지오 798세대",
+   "demolition_year": 2017,
+   "construction_start_year": 2018,
+   "completion_year": 2021,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공4단지",
+     "completion_year": 1985,
+     "floors": 5,
+     "building_count": 15,
+     "households": 470,
+     "demolished_year": 2017
+    }
+   ],
+   "successor_names": [
+    "철산센트럴푸르지오"
+   ],
+   "confidence": "medium",
+   "note": "주소 오리로 835. 1985.9 준공, 2021 입주(나무위키·월부 모두 4단지로 기재). 철거·착공 연도는 역산 추정. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC"
+   ]
+  },
+  {
+   "id": "cs-7",
+   "name_ko": "철산주공7단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.48,
+   "center_lon": 126.866,
+   "approx_radius_m": 170,
+   "before_kind": "old_apartments",
+   "before_since_year": 1985,
+   "before_desc_ko": "5층 저층 주공아파트 23동 599세대",
+   "after_desc_ko": "철산역롯데캐슬&SKVIEW클래스티지 1,313세대",
+   "demolition_year": 2018,
+   "construction_start_year": 2019,
+   "completion_year": 2022,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공7단지",
+     "completion_year": 1985,
+     "floors": 5,
+     "building_count": 23,
+     "households": 599,
+     "demolished_year": 2018
+    }
+   ],
+   "successor_names": [
+    "철산역롯데캐슬&SKVIEW클래스티지"
+   ],
+   "confidence": "medium",
+   "note": "주소 모세로 8. 1985.10 준공, 2022 입주(나무위키·월부 일치). 철거·착공 연도는 역산 추정. 좌표 추정(±300m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC",
+    "https://www.lottecastle.co.kr/APT/AT00244/main/index.do"
+   ]
+  },
+  {
+   "id": "cs-8-9",
+   "name_ko": "철산주공8·9단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.4815,
+   "center_lon": 126.869,
+   "approx_radius_m": 330,
+   "before_kind": "old_apartments",
+   "before_since_year": 1985,
+   "before_desc_ko": "5층 저층 주공아파트 77동 2,064세대",
+   "after_desc_ko": "철산자이더헤리티지 3,804세대",
+   "demolition_year": 2021,
+   "construction_start_year": 2021,
+   "completion_year": 2025,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공8단지·9단지",
+     "completion_year": 1985,
+     "floors": 5,
+     "building_count": 77,
+     "households": 2064,
+     "demolished_year": 2021
+    }
+   ],
+   "successor_names": [
+    "철산자이더헤리티지"
+   ],
+   "confidence": "medium",
+   "note": "주소 모세로 27·53. 1985.9 준공, 2025.5 입주(나무위키 확인). 철거·착공 연도는 역산 추정. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC"
+   ]
+  },
+  {
+   "id": "cs-10-11",
+   "name_ko": "철산주공10·11단지 재건축",
+   "kind": "reconstruction",
+   "center_lat": 37.484,
+   "center_lon": 126.872,
+   "approx_radius_m": 220,
+   "before_kind": "old_apartments",
+   "before_since_year": 1985,
+   "before_desc_ko": "5층 저층 주공아파트 31동 1,080세대",
+   "after_desc_ko": "철산자이브리에르 1,490세대",
+   "demolition_year": 2022,
+   "construction_start_year": 2022,
+   "completion_year": 2026,
+   "status": "completed",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공10단지·11단지",
+     "completion_year": 1985,
+     "floors": 5,
+     "building_count": 31,
+     "households": 1080,
+     "demolished_year": 2022
+    }
+   ],
+   "successor_names": [
+    "철산자이브리에르"
+   ],
+   "confidence": "medium",
+   "note": "주소 가마산로 11·29. 1985.10 준공. 검증: 나무위키 2026.01 입주, 하우징헤럴드 2026.1 기사 '이달 입주 시작' 확인되어 completed 유지. 철거·착공 연도는 역산 추정. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC"
+   ]
+  },
+  {
+   "id": "cs-12",
+   "name_ko": "철산주공12단지 재건축(추진)",
+   "kind": "reconstruction",
+   "center_lat": 37.479,
+   "center_lon": 126.875,
+   "approx_radius_m": 220,
+   "before_kind": "old_apartments",
+   "before_since_year": 1986,
+   "before_desc_ko": "15층 주공아파트 19동 1,800세대(현존)",
+   "after_desc_ko": "재건축 추진 중(정비구역 지정 후 조합설립 절차), 신축 단지명·목표연도 미정",
+   "status": "planned",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공12단지",
+     "completion_year": 1986,
+     "floors": 15,
+     "building_count": 19,
+     "households": 1800
+    }
+   ],
+   "confidence": "medium",
+   "note": "주소 디지털로 63. 1986.7 준공, 철거 전(현존). 정비구역 지정(월부)·조합설립 진행(하우징헤럴드 2026.1). 목표 준공연도 미발표. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC"
+   ]
+  },
+  {
+   "id": "cs-13",
+   "name_ko": "철산주공13단지 재건축(추진)",
+   "kind": "reconstruction",
+   "center_lat": 37.4745,
+   "center_lon": 126.8745,
+   "approx_radius_m": 250,
+   "before_kind": "old_apartments",
+   "before_since_year": 1986,
+   "before_desc_ko": "15층 주공아파트 24동 2,460세대(현존)",
+   "after_desc_ko": "재건축 추진 중(정비구역 지정 후 조합설립 절차), 신축 단지명·목표연도 미정",
+   "status": "planned",
+   "predecessor_complexes": [
+    {
+     "name_ko": "철산주공13단지",
+     "completion_year": 1986,
+     "floors": 15,
+     "building_count": 24,
+     "households": 2460
+    }
+   ],
+   "confidence": "medium",
+   "note": "주소 철산로 57. 1986.7 준공, 철거 전(현존). 정비구역 지정(월부)·조합설립 진행(하우징헤럴드 2026.1). 목표 준공연도 미발표. 좌표 추정(±400m).",
+   "sources": [
+    "https://namu.wiki/w/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517",
+    "https://weolbu.com/community/3028828/%EC%B2%A0%EC%82%B0%EC%A3%BC%EA%B3%B5-%EB%AA%A8%EB%93%A0-%EB%8B%A8%EC%A7%80%EB%A5%BC-%EA%B8%80-%ED%95%98%EB%82%98%EB%A1%9C-%EC%A0%95%EB%A6%AC"
+   ]
+  },
+  {
+   "id": "haan-takji",
+   "name_ko": "하안 택지개발지구(하안주공 단지 조성)",
+   "kind": "urban_development",
+   "center_lat": 37.46,
+   "center_lon": 126.878,
+   "approx_radius_m": 1100,
+   "before_kind": "farmland",
+   "before_since_year": 1960,
+   "before_desc_ko": "하안리 농경지(1971.12 개발제한구역 지정 지역 포함)",
+   "after_desc_ko": "하안주공 1~14단지 188개동 24,335세대(15층 위주, 8단지만 5층 9개동 병행)",
+   "construction_start_year": 1986,
+   "completion_year": 1990,
+   "status": "completed",
+   "confidence": "medium",
+   "note": "1985년경 택지개발예정지구 지정. 검증: 나무위키에서 1~4단지 1989.10, 5단지 1990.5, 6~14단지 1990.3~11 준공, 총 188동 24,335세대 확인(원 조사 '5~11단지 1990.3~9'를 보정). 14단지는 서울 금천구 소재로 원 조사에 기재되었으나 이번 검증에서 재확인 못 함. 착공 1986은 추정.",
+   "sources": [
+    "https://namu.wiki/w/%ED%95%98%EC%95%88%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%8B%9C/%EC%97%AD%EC%82%AC",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100008"
+   ]
+  },
+  {
+   "id": "haan-recon",
+   "name_ko": "하안주공 1~13단지 재건축(추진)",
+   "kind": "reconstruction",
+   "center_lat": 37.46,
+   "center_lon": 126.878,
+   "approx_radius_m": 1100,
+   "before_kind": "old_apartments",
+   "before_since_year": 1989,
+   "before_desc_ko": "1989~1990년 준공 15층 주공아파트(8단지만 5층 9개동 포함)",
+   "after_desc_ko": "단지별 재건축 추진 초기 단계, 철거 없음",
+   "status": "planned",
+   "predecessor_complexes": [
+    {
+     "name_ko": "하안주공1~4단지",
+     "completion_year": 1989,
+     "floors": 15,
+     "building_count": 44,
+     "households": 6412
+    },
+    {
+     "name_ko": "하안주공5~11단지",
+     "completion_year": 1990,
+     "floors": 15,
+     "building_count": 95
+    },
+    {
+     "name_ko": "하안주공12~13단지",
+     "completion_year": 1990,
+     "floors": 15,
+     "building_count": 37
+    }
+   ],
+   "confidence": "medium",
+   "note": "2026 기준 철거된 단지 없음. 1·2단지(2,846세대) 추진위 승인 2024.11, 3·4단지(3,566세대) 정비구역 지정 2024.5·신탁사 선정 2024.9, 5단지 시공자 선정 준비, 8단지 추진위 승인 2024.9, 6·7·9·10-11·12단지 정비구역 지정·신탁사 지정 2024.12(하우징헤럴드). 13단지는 영구임대. 목표연도 미발표. 검증: 5~11단지 동수 89→95로 수정(18+7+11+21+15+17+6), 5층동은 8단지만 해당하는 것으로 정리, 1~4단지 세대수는 하우징헤럴드 합계 6,412로 수정. 5~11단지·12~13단지 세대수는 원 조사값이 총계(24,335)와 맞지 않아 삭제. 12~13단지 동수 37은 12~14단지 42동에서 14단지 5동을 뺀 값.",
+   "sources": [
+    "https://namu.wiki/w/%ED%95%98%EC%95%88%EC%A3%BC%EA%B3%B5%EC%95%84%ED%8C%8C%ED%8A%B8",
+    "https://www.housingherald.co.kr/news/articleView.html?idxno=60517"
+   ]
+  },
+  {
+   "id": "soha-takji",
+   "name_ko": "소하 택지개발지구",
+   "kind": "public_housing",
+   "center_lat": 37.445,
+   "center_lon": 126.883,
+   "approx_radius_m": 580,
+   "area_m2": 1044628,
+   "before_kind": "farmland",
+   "before_since_year": 1971,
+   "before_desc_ko": "개발제한구역(1971.12 지정) 내 소하리 농경지·마을",
+   "after_desc_ko": "국민임대 2,750호 포함 공동주택 약 5,520~5,750호·단독주택 148~164호(소하 휴먼시아 단지 등)",
+   "demolition_year": 2005,
+   "construction_start_year": 2005,
+   "completion_year": 2008,
+   "status": "completed",
+   "successor_names": [
+    "소하 휴먼시아 1~7단지",
+    "광명신촌휴먼시아"
+   ],
+   "confidence": "medium",
+   "note": "검증: 디지털광명문화대전에서 2002.6.28 택지개발예정지구 지정, 2003.6.9 도시관리계획 변경(개발제한구역 해제), 2005.10.31 대지조성 착공, 2007.12 사업 준공, 2008.12.31 사업 완료, 소하1동주민센터 부근 확인. 공동주택 호수는 자료 내에서도 5,520/5,750호로 상이하여 원 조사 '약 5,900세대'를 수정. 아파트 입주 시기는 이번 검증에서 확인 못 함. 좌표 추정(±500m).",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100605",
+    "https://namu.wiki/w/%EC%8B%A0%EC%B4%8C%ED%9C%B4%EB%A8%BC%EC%8B%9C%EC%95%84",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100008"
+   ]
+  },
+  {
+   "id": "ktx-takji",
+   "name_ko": "광명역세권 택지개발지구(일직동)",
+   "kind": "station_area",
+   "center_lat": 37.419,
+   "center_lon": 126.883,
+   "approx_radius_m": 800,
+   "before_kind": "farmland",
+   "before_since_year": 1960,
+   "before_desc_ko": "일직동 농경지·개발제한구역, 역 개통 후에도 휴먼시아 외 한동안 공터",
+   "after_desc_ko": "KTX 광명역 주변 상업(코스트코·이케아·롯데몰), 주상복합·아파트(파크자이·센트럴자이·써밋플레이스·유플래닛데시앙 등), GIDC, 중앙대광명병원",
+   "construction_start_year": 2004,
+   "completion_year": 2018,
+   "status": "completed",
+   "successor_names": [
+    "광명역세권휴먼시아",
+    "광명역파크자이",
+    "광명역센트럴자이",
+    "광명역써밋플레이스",
+    "광명역유플래닛데시앙",
+    "중앙대학교광명병원"
+   ],
+   "confidence": "high",
+   "note": "검증: 디지털광명문화대전에서 2003.12.6 택지개발예정지구 지정, 2004.4.1 광명역 개통, 2004.11.26 사업 착수, 2018.3.31 택지개발사업 준공 확인 → 착공 2006(추정)을 2004로, 완료 2022를 택지 준공 2018로 수정. 이후 건물: 휴먼시아 입주 2010.11~2011.2, 코스트코 2012.12.15, 롯데몰 2014.12.5, 이케아 2014.12.18, 파크자이 2017.7, 푸르지오 2017.8, 써밋플레이스 2018.2, 센트럴자이 2018.12, 유플래닛데시앙 2020.1, GIDC 2021.11, 중앙대광명병원 2022.3 개원. 안양시 석수·박달동 일부 포함. LH 시행.",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03131008",
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%97%AD%EC%84%B8%EA%B6%8C%EA%B0%9C%EB%B0%9C%EC%82%AC%EC%97%85",
+    "https://www.hankookilbo.com/news/article/200303060028166336"
+   ]
+  },
+  {
+   "id": "ikea-lotte-site",
+   "name_ko": "이케아 광명점·롯데몰 광명점·코스트코 광명점 부지",
+   "kind": "station_area",
+   "center_lat": 37.4225,
+   "center_lon": 126.882,
+   "approx_radius_m": 250,
+   "before_kind": "vacant",
+   "before_since_year": 2008,
+   "before_desc_ko": "역세권 택지 조성 후 빈 상업용지(그 이전은 일직동 농경지)",
+   "after_desc_ko": "이케아 국내 1호점·롯데몰(아울렛)·코스트코 대형 상업시설",
+   "construction_start_year": 2012,
+   "completion_year": 2014,
+   "status": "completed",
+   "successor_names": [
+    "이케아 광명점",
+    "롯데몰 광명점",
+    "코스트코 광명점"
+   ],
+   "confidence": "medium",
+   "note": "검증: 코스트코 2012.12.15, 롯데몰(롯데 프리미엄아울렛) 2014.12.5, 이케아 2014.12.18 개점 확인. 빈 용지 시작연도(2008)와 착공연도(2012)는 추정. 좌표 추정(±300m).",
+   "sources": [
+    "https://namu.wiki/w/%EA%B4%91%EB%AA%85%EC%97%AD%EC%84%B8%EA%B6%8C%EA%B0%9C%EB%B0%9C%EC%82%AC%EC%97%85",
+    "https://www.grandculture.net/gwangmyeong/toc/GC03131008"
+   ]
+  },
+  {
+   "id": "kia-sohari",
+   "name_ko": "기아 소하리공장(기아 AutoLand 광명)",
+   "kind": "industrial",
+   "center_lat": 37.4285,
+   "center_lon": 126.8875,
+   "approx_radius_m": 450,
+   "before_kind": "farmland",
+   "before_since_year": 1960,
+   "before_desc_ko": "시흥군 서면 소하리 농경지",
+   "after_desc_ko": "국내 최초 종합 자동차공장(연산 2.5만 대로 출발), 현재 기아 AutoLand 광명",
+   "construction_start_year": 1970,
+   "completion_year": 1973,
+   "status": "completed",
+   "successor_names": [
+    "기아 AutoLand 광명"
+   ],
+   "confidence": "high",
+   "note": "검증: 1970.11.10 소하리 공장(20만 평 규모) 착공, 1973.6 준공 확인 → 착공 연도를 1972(추정)에서 1970으로 수정. 1974.10 브리사 생산. 좌표 추정(±400m).",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B8%B0%EC%95%84%EC%9E%90%EB%8F%99%EC%B0%A8",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100010",
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC031A020301",
+    "https://namu.wiki/w/%EA%B8%B0%EC%95%84%20AutoLand%20%EA%B4%91%EB%AA%85"
+   ]
+  },
+  {
+   "id": "gmsh-newtown",
+   "name_ko": "광명시흥 공공주택지구(3기 신도시)",
+   "kind": "new_town",
+   "center_lat": 37.44,
+   "center_lon": 126.833,
+   "approx_radius_m": 2000,
+   "area_m2": 12710000,
+   "before_kind": "greenhouse",
+   "before_since_year": 1971,
+   "before_desc_ko": "개발제한구역 내 비닐하우스·농경지·소규모 창고·공장 혼재(보금자리 해제 후 특별관리지역)",
+   "after_desc_ko": "약 6만7천호 신도시(공공 3만7천호 포함)",
+   "construction_start_year": 2027,
+   "completion_year": 2031,
+   "status": "planned",
+   "confidence": "medium",
+   "note": "2010 광명시흥 보금자리주택지구 지정 → 2014 해제 → 2021 3기 신도시 지정(약 1,271만㎡). 검증: 뉴스핌 2026.6.1 기사에서 토지보상 감정평가 2026.5.19 완료, 본격 보상 2026.7 예정, 착공 2027년 말, 첫 분양 2029, 첫 입주 2031, 일부 2033 준공 목표 확인. 광명 노온사동·가학동·옥길동 및 시흥 과림동·무지내동 일대로 서쪽은 시 경계 밖까지 걸침. 비닐하우스 시작연도 1971은 개발제한구역 지정연도로 대체.",
+   "sources": [
+    "https://www.newspim.com/news/view/20260529000973",
+    "https://www.sentv.co.kr/article/view/sentv202605240006",
+    "https://news.gm.go.kr/bbs/view.html?idxno=5554&sc_category="
+   ]
+  },
+  {
+   "id": "gb-greenhouse-belt",
+   "name_ko": "노온사동·가학동 개발제한구역 비닐하우스 벨트",
+   "kind": "other",
+   "center_lat": 37.446,
+   "center_lon": 126.848,
+   "approx_radius_m": 1200,
+   "before_kind": "farmland",
+   "before_since_year": 1960,
+   "before_desc_ko": "학온동(노온사리·가학리) 논밭과 자연마을",
+   "after_desc_ko": "1971.12 개발제한구역 지정 후 비닐하우스·화훼·창고 벨트로 유지, 3기 신도시·학온지구로 전환 예정",
+   "completion_year": 2031,
+   "status": "planned",
+   "confidence": "low",
+   "note": "개발제한구역 지정 1971.12(가학리·노온사리·소하리·하안리 등 서면 대부분, 디지털광명문화대전 확인). 비닐하우스 확산 시기는 미확인. 3기 신도시 착공(2027 말) 전까지 현 상태 유지로 표현 권장, 2031은 신도시 첫 입주 목표. 좌표 추정.",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100008",
+    "https://www.newspim.com/news/view/20260529000973"
+   ]
+  },
+  {
+   "id": "hakon-housing",
+   "name_ko": "광명학온 공공주택지구",
+   "kind": "public_housing",
+   "center_lat": 37.426,
+   "center_lon": 126.861,
+   "approx_radius_m": 470,
+   "area_m2": 680000,
+   "before_kind": "greenhouse",
+   "before_since_year": 1971,
+   "before_desc_ko": "광명시흥 보금자리 해제지역(가학동 개발제한구역 농경지·비닐하우스)",
+   "after_desc_ko": "부지조성 후 공동주택 4,214호·단독 103호 등 4,317호 건설 예정(학온역 역세권)",
+   "construction_start_year": 2024,
+   "completion_year": 2026,
+   "status": "under_construction",
+   "confidence": "medium",
+   "note": "GH 시행, 사업비 약 9,000억, 가학동 일원 68만㎡. 지구계획 승인 2022.7. 검증: 부지조성공사 착공이 2024.11.28로 확인되어 착공 연도를 2023에서 2024로 수정. 2026은 부지조성 준공 목표(2026 하반기)이며 아파트 건설은 그 뒤에 시작되므로 주택 입주는 2026 이후(목표연도 미발표). 좌표 추정(±500m).",
+   "sources": [
+    "https://go.seoul.co.kr/news/newsView.php?id=20241128500203",
+    "https://www.hkbs.co.kr/news/articleView.html?idxno=780168",
+    "https://www.sedaily.com/article/13434755"
+   ]
+  },
+  {
+   "id": "gmsh-technovalley",
+   "name_ko": "광명시흥 테크노밸리",
+   "kind": "industrial",
+   "center_lat": 37.421,
+   "center_lon": 126.85,
+   "approx_radius_m": 900,
+   "area_m2": 2449000,
+   "before_kind": "greenhouse",
+   "before_since_year": 1971,
+   "before_desc_ko": "보금자리 해제 후 특별관리지역, 개발제한구역 농경지·비닐하우스·창고",
+   "after_desc_ko": "일반산업단지(97.5만㎡, LH)·유통단지(29.7만㎡, LH)·도시첨단산업단지(49.3만㎡, GH)·학온 주거지구",
+   "construction_start_year": 2021,
+   "completion_year": 2026,
+   "status": "under_construction",
+   "confidence": "low",
+   "note": "2018 추진. 검증: 일반산단 2021.6.3 착공·2025.6 준공 목표가 재연기 가능성 보도, 기업단체가 2026.12 준공 확정 요구. 도시첨단산단은 2021.11 착공, GH 공식 페이지 기준 사업기간 2019.4~2026.12·'사업 진행중'으로 확인 → 완료연도를 2025에서 2026 목표로 수정. 광명 가학동 + 시흥 논곡동·무지내동에 걸침. 좌표 추정.",
+   "sources": [
+    "https://www.gh.or.kr/gh/gwangmyeong-siheung-urban-high-tech-industrial-complex.do",
+    "https://www.kgnews.co.kr/news/article.html?no=709005",
+    "http://www.gmnewspaper.kr/m/view.asp?idx=11138",
+    "https://www.sedaily.com/article/13434755"
+   ]
+  },
+  {
+   "id": "gureumsan-district",
+   "name_ko": "광명 구름산지구 도시개발사업",
+   "kind": "urban_development",
+   "center_lat": 37.442,
+   "center_lon": 126.872,
+   "approx_radius_m": 500,
+   "area_m2": 772855,
+   "before_kind": "farmland",
+   "before_since_year": 1971,
+   "before_desc_ko": "개발제한구역 해제 취락(가리대·설월리·40동 마을 등)과 소하동 농경지",
+   "after_desc_ko": "환지방식 주거단지 약 5,050~5,096세대 및 근린생활용지",
+   "demolition_year": 2026,
+   "construction_start_year": 2023,
+   "completion_year": 2028,
+   "status": "under_construction",
+   "confidence": "medium",
+   "note": "2015.11 도시개발구역 지정, 2019.4.24 실시계획 인가, 2021.3 환지계획 고시. 검증: 부지조성·기반시설 공사 착공이 2023.1로 확인되어 착공 연도를 2019(실시계획 인가 연도)에서 2023으로 수정. 2026.3 기준 건축물 철거 96.65%·석면 해체 85.57%, 남은 철거를 2026년 안에 마칠 계획이라 철거연도 2026으로 기입. 준공 목표 2028. 좌표는 구름산 남동쪽 추정(±700m).",
+   "sources": [
+    "https://www.1gan.co.kr/news/articleView.html?idxno=354275",
+    "https://www.pressian.com/pages/articles/2026040616143407330",
+    "https://www.hankookilbo.com/news/article/amp/201904240923018195"
+   ]
+  },
+  {
+   "id": "haan2-housing",
+   "name_ko": "광명하안2 공공주택지구",
+   "kind": "public_housing",
+   "center_lat": 37.459,
+   "center_lon": 126.864,
+   "approx_radius_m": 430,
+   "area_m2": 581193,
+   "before_kind": "mixed",
+   "before_since_year": 1971,
+   "before_desc_ko": "하안동 개발제한구역 내 농경지와 기존 주거 혼재(밤일음식문화거리 인근)",
+   "after_desc_ko": "공공주택 3,578호(공공임대·공공분양 약 65%, 범안로 반지하화 상부 공원)",
+   "construction_start_year": 2026,
+   "completion_year": 2029,
+   "status": "planned",
+   "confidence": "low",
+   "note": "LH 시행. 지구지정 2022.6, 지구계획 승인·고시 2024.11.11(581,193㎡), 보상계획 공고 2025 상반기, 착공 2026·준공 2029 목표(광명시 보도자료·중부일보 확인). 2026.9 현재 실제 착공 여부는 확인하지 못해 planned 유지. 좌표는 밤일음식문화거리 인근 추정(±700m).",
+   "sources": [
+    "http://news.gm.go.kr/bbs/view.html?idxno=5305",
+    "https://www.joongboo.com/news/articleView.html?idxno=363676980",
+    "https://www.newsis.com/view/NISX20241111_0002954565",
+    "https://go.seoul.co.kr/news/newsView.php?id=20241111500262"
+   ]
+  }
+ ]
+}

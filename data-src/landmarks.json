@@ -1,0 +1,673 @@
+{
+ "landmarks": [
+  {
+   "id": "gureumsan",
+   "name_ko": "구름산",
+   "name_en": "Gureumsan",
+   "kind": "mountain",
+   "lat": 37.44068,
+   "lon": 126.86616,
+   "height_m": 237,
+   "description_ko": "광명시 한가운데 우뚝 솟은 최고봉 구름산(237m)으로, 시민들이 가장 즐겨 오르는 산이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100075",
+    "https://www.openstreetmap.org/node/446001324"
+   ],
+   "note": "디지털광명문화대전 기준 237m. OSM 표고값(251.99)은 DEM 추정치여서 채택하지 않음."
+  },
+  {
+   "id": "dodeoksan",
+   "name_ko": "도덕산",
+   "name_en": "Dodeoksan",
+   "kind": "mountain",
+   "lat": 37.47036,
+   "lon": 126.86077,
+   "height_m": 183.1,
+   "description_ko": "광명시 북쪽의 도덕산(183.1m)은 정상 팔각정 도덕정과 Y자 출렁다리로 사랑받는 도심 속 산이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100075",
+    "https://www.openstreetmap.org/node/10252984919",
+    "https://www.hankyung.com/article/202208256788Y"
+   ],
+   "note": "OSM에는 201m 노드(37.46534,126.85717)도 있으나 문화대전·여행기사 모두 183m로 표기해 183.1m 노드를 채택."
+  },
+  {
+   "id": "gahaksan",
+   "name_ko": "가학산",
+   "name_en": "Gahaksan",
+   "kind": "mountain",
+   "lat": 37.42799,
+   "lon": 126.8673,
+   "height_m": 220.2,
+   "description_ko": "광명동굴을 품은 가학산(220.2m)은 가학동·노온사동·소하동에 걸쳐 있는 산이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100075",
+    "https://www.openstreetmap.org/node/446001452"
+   ]
+  },
+  {
+   "id": "seodoksan",
+   "name_ko": "서독산",
+   "name_en": "Seodoksan",
+   "kind": "mountain",
+   "lat": 37.42487,
+   "lon": 126.87416,
+   "height_m": 180,
+   "description_ko": "광명시 남쪽 끝 가학동에 자리한 서독산은 안양과 맞닿은 조용한 숲길 산이에요.",
+   "status": "completed",
+   "confidence": "medium",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100075",
+    "https://www.openstreetmap.org/node/6119857915"
+   ],
+   "note": "높이 자료가 엇갈림. 문화대전은 180m, OSM은 GPS 기준 213m이고 현장 표지는 222m. 문화대전 값을 채택함."
+  },
+  {
+   "id": "anyangcheon",
+   "name_ko": "안양천",
+   "name_en": "Anyangcheon Stream",
+   "kind": "stream",
+   "lat": 37.462,
+   "lon": 126.888,
+   "description_ko": "광명시 동쪽 경계를 따라 흐르며 서울 구로구·금천구와 광명을 나누는 큰 하천이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/안양천",
+    "https://namu.wiki/w/광명시"
+   ]
+  },
+  {
+   "id": "mokgamcheon",
+   "name_ko": "목감천",
+   "name_en": "Mokgamcheon Stream",
+   "kind": "stream",
+   "lat": 37.48,
+   "lon": 126.848,
+   "description_ko": "시흥에서 흘러와 광명동 서쪽과 북쪽을 지나 안양천에 합류하는 하천으로, 자전거길이 나 있어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/광명시",
+    "https://www.openstreetmap.org/way/551274841"
+   ]
+  },
+  {
+   "id": "anyanggyo",
+   "name_ko": "안양교",
+   "name_en": "Anyanggyo Bridge",
+   "kind": "bridge",
+   "lat": 37.49217,
+   "lon": 126.87088,
+   "opened_year": 1977,
+   "description_ko": "남부순환로가 지나며 광명 철산동과 서울 구로동을 잇는 안양천 다리예요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.grandculture.net/guro/toc/GC03000198"
+   ]
+  },
+  {
+   "id": "gwangmyeong_daegyo",
+   "name_ko": "광명대교",
+   "name_en": "Gwangmyeong Bridge",
+   "kind": "bridge",
+   "lat": 37.4851,
+   "lon": 126.8735,
+   "opened_year": 1987,
+   "description_ko": "광명 철산동과 서울 금천구 가산동을 잇는 안양천 다리로, 서부간선도로와 연결돼요.",
+   "status": "completed",
+   "confidence": "medium",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/광명대교"
+   ],
+   "note": "OSM에는 이 위치의 다리가 '광명교'로 올라 있음. 준공연도 1987년은 나무위키 기준."
+  },
+  {
+   "id": "cheolsan_daegyo",
+   "name_ko": "철산대교",
+   "name_en": "Cheolsan Bridge",
+   "kind": "bridge",
+   "lat": 37.47471,
+   "lon": 126.87656,
+   "opened_year": 1977,
+   "description_ko": "철산대교사거리에서 안양천을 건너 서울 가산디지털단지로 이어지는 다리예요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "http://www.grandculture.net/gwangmyeong/toc/GC03100203",
+    "https://namu.wiki/w/철산대교"
+   ],
+   "note": "1977년 준공, 1989년 확장, 2012~2013년 연결구간 3차로 확장."
+  },
+  {
+   "id": "siheung_daegyo",
+   "name_ko": "시흥대교",
+   "name_en": "Siheung Bridge",
+   "kind": "bridge",
+   "lat": 37.45258,
+   "lon": 126.89522,
+   "opened_year": 1988,
+   "description_ko": "금하로가 지나며 광명 하안·소하동과 서울 금천구 시흥동을 잇는 안양천 다리예요.",
+   "status": "completed",
+   "confidence": "medium",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/시흥대교"
+   ],
+   "note": "1985년 착공, 1988년 준공(나무위키, 검색 결과 요약 기준)."
+  },
+  {
+   "id": "kia_daegyo",
+   "name_ko": "기아대교",
+   "name_en": "Kia Bridge",
+   "kind": "bridge",
+   "lat": 37.43869,
+   "lon": 126.90082,
+   "description_ko": "기아 오토랜드 광명 앞에서 소하동과 서울 금천구 시흥동을 잇는 안양천 다리예요.",
+   "status": "completed",
+   "confidence": "low",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://krbridge.com/%EA%B8%B0%EC%95%84%EB%8C%80%EA%B5%90%EC%8B%A0-%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C-%EA%B8%88%EC%B2%9C%EA%B5%AC/",
+    "https://namu.wiki/w/안양천"
+   ],
+   "note": "신교(245m)는 2009년 준공. 기존 구교는 그 전부터 있었지만 준공연도는 확인하지 못해 opened_year를 비워 둠."
+  },
+  {
+   "id": "ktx_gwangmyeong_station",
+   "name_ko": "광명역",
+   "name_en": "Gwangmyeong Station (KTX)",
+   "kind": "station",
+   "lat": 37.41638,
+   "lon": 126.8847,
+   "opened_year": 2004,
+   "description_ko": "2004년 KTX 개통과 함께 문을 연 광명의 고속철도 관문역이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "exact",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gwangmyeong_Station",
+    "https://namu.wiki/w/광명시",
+    "https://www.openstreetmap.org/node/2847440772"
+   ],
+   "note": "2004-04-01 개업."
+  },
+  {
+   "id": "gwangmyeongsageori_station",
+   "name_ko": "광명사거리역",
+   "name_en": "Gwangmyeongsageori Station",
+   "kind": "station",
+   "lat": 37.47945,
+   "lon": 126.85432,
+   "opened_year": 2000,
+   "description_ko": "광명전통시장 바로 앞에 있는 서울 지하철 7호선 역이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gwangmyeongsageori_station",
+    "https://namu.wiki/w/광명시"
+   ],
+   "note": "7호선 온수~신풍 구간 개통(2000-02-29) 때 개업."
+  },
+  {
+   "id": "cheolsan_station",
+   "name_ko": "철산역",
+   "name_en": "Cheolsan Station",
+   "kind": "station",
+   "lat": 37.476,
+   "lon": 126.8676,
+   "opened_year": 2000,
+   "description_ko": "광명시청과 철산 상업지구 사이에 있는 서울 지하철 7호선 역이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "exact",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gwangmyeongsageori_station",
+    "https://namu.wiki/w/광명시",
+    "https://www.openstreetmap.org/node/6048953567"
+   ],
+   "note": "7호선 연장 개통(2000년)과 함께 개업."
+  },
+  {
+   "id": "gahak_mine",
+   "name_ko": "시흥광산(가학광산)",
+   "name_en": "Siheung (Gahak) Mine",
+   "kind": "factory",
+   "lat": 37.4268,
+   "lon": 126.8655,
+   "opened_year": 1912,
+   "closed_year": 1972,
+   "description_ko": "일제강점기부터 금·은·구리·아연을 캐던 수도권 최대의 금속 광산으로, 1972년에 문을 닫았어요.",
+   "status": "demolished",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/광명동굴",
+    "https://ko.wikipedia.org/wiki/광명시"
+   ],
+   "note": "'demolished'는 1972년 폐광을 뜻함. 갱도는 남아 있고 2011년 광명동굴로 다시 열림."
+  },
+  {
+   "id": "gwangmyeong_cave",
+   "name_ko": "광명동굴",
+   "name_en": "Gwangmyeong Cave",
+   "kind": "tourism",
+   "lat": 37.42681,
+   "lon": 126.86552,
+   "opened_year": 2011,
+   "description_ko": "옛 폐광을 빛과 와인의 동굴 테마파크로 되살린 광명 대표 관광지예요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/광명동굴",
+    "https://www.gm.go.kr/cv/gc/11/CVGC_11100.jsp",
+    "https://www.openstreetmap.org/node/3042620911"
+   ],
+   "note": "2011년 무료 개방, 2015년 4월 유료 테마파크로 재개장."
+  },
+  {
+   "id": "gwangmyeong_city_hall",
+   "name_ko": "광명시청",
+   "name_en": "Gwangmyeong City Hall",
+   "kind": "public",
+   "lat": 37.47856,
+   "lon": 126.86464,
+   "opened_year": 1984,
+   "description_ko": "건축가 김수근이 설계해 1984년 철산동에 문을 연 광명시청이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "exact",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC031C020201",
+    "https://www.openstreetmap.org/way/250376676"
+   ],
+   "note": "1983년 8월 기공, 1984년 7월 2일 준공, 1985년 제1별관 신축."
+  },
+  {
+   "id": "gwangmyeong_civic_stadium",
+   "name_ko": "광명시민운동장",
+   "name_en": "Gwangmyeong Civic Stadium",
+   "kind": "sports",
+   "lat": 37.4771,
+   "lon": 126.8649,
+   "opened_year": 1990,
+   "description_ko": "철산동 시청 옆 운동장으로, 2023년 지하주차장과 교육센터를 품은 국제규격 인조잔디 축구장으로 새로 단장했어요.",
+   "status": "completed",
+   "confidence": "low",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.newsis.com/view/NISX20231214_0002558260",
+    "https://www.hankyung.com/article/202312146056Y"
+   ],
+   "note": "처음 조성된 연도는 확인하지 못함(1990은 추정). 2023-12-28 지하공영주차장·디지털혁신교육센터·축구장 재조성 준공. 좌표는 시청 남쪽 OSM 운동장 폴리곤 기준 추정."
+  },
+  {
+   "id": "gwangmyeong_speedom",
+   "name_ko": "광명스피돔",
+   "name_en": "Gwangmyeong Speedom",
+   "kind": "sports",
+   "lat": 37.46693,
+   "lon": 126.84533,
+   "opened_year": 2006,
+   "description_ko": "돔 지붕을 씌운 국내 대표 실내 경륜장으로, 광명동 서쪽에 자리하고 있어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/광명_스피돔",
+    "https://namu.wiki/w/광명시",
+    "https://www.openstreetmap.org/way/300010873"
+   ],
+   "note": "2005년 말 준공, 2006년 개장(잠실경륜장에서 이전)."
+  },
+  {
+   "id": "gwangmyeong_civic_gym",
+   "name_ko": "광명시민체육관",
+   "name_en": "Gwangmyeong Civic Gymnasium",
+   "kind": "sports",
+   "lat": 37.46341,
+   "lon": 126.87074,
+   "opened_year": 1993,
+   "description_ko": "하안동에 있는 실내체육관으로, 1993년 '광명시 실내체육관'이라는 이름으로 문을 열었어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03101074",
+    "https://www.openstreetmap.org/way/252224324"
+   ],
+   "note": "1993-11-15 준공, 12-04 개관. 2012-02-01 광명시민체육관으로 이름을 바꿈."
+  },
+  {
+   "id": "upcycle_art_center",
+   "name_ko": "광명업사이클아트센터",
+   "name_en": "Gwangmyeong Upcycle Art Center",
+   "kind": "culture",
+   "lat": 37.46372,
+   "lon": 126.87036,
+   "opened_year": 2015,
+   "description_ko": "버려진 물건을 예술로 되살리는 업사이클 전문 문화공간으로, 광명시민체육관과 붙어 있어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/광명시",
+    "https://www.openstreetmap.org/way/252224324"
+   ]
+  },
+  {
+   "id": "ikea_gwangmyeong",
+   "name_ko": "이케아 광명점",
+   "name_en": "IKEA Gwangmyeong",
+   "kind": "mall",
+   "lat": 37.42427,
+   "lon": 126.88279,
+   "opened_year": 2014,
+   "description_ko": "2014년 광명역 앞에 문을 연 이케아의 한국 1호점이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://m.businesspost.co.kr/BP?command=mobile_view&num=7586",
+    "https://namu.wiki/w/이케아 광명점",
+    "https://www.openstreetmap.org/way/313671981"
+   ],
+   "note": "2014-12-18 개장."
+  },
+  {
+   "id": "lotte_premium_outlet_gwangmyeong",
+   "name_ko": "롯데프리미엄아울렛 광명점",
+   "name_en": "Lotte Premium Outlets Gwangmyeong",
+   "kind": "mall",
+   "lat": 37.42429,
+   "lon": 126.88438,
+   "opened_year": 2014,
+   "description_ko": "이케아 바로 옆에 붙은 도심형 프리미엄 아울렛(롯데몰 광명점)이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://blog.lotte.co.kr/23260",
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01849926606315240",
+    "https://www.openstreetmap.org/way/317130836"
+   ],
+   "note": "2014-12-05 그랜드 오픈."
+  },
+  {
+   "id": "costco_gwangmyeong",
+   "name_ko": "코스트코 광명점",
+   "name_en": "Costco Gwangmyeong",
+   "kind": "mall",
+   "lat": 37.42083,
+   "lon": 126.88593,
+   "opened_year": 2012,
+   "description_ko": "광명역세권 일직동에 들어선 창고형 할인매장으로, 이케아와 길 하나를 사이에 두고 마주 보고 있어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.newsis.com/view/NISX20121215_0011691273",
+    "https://www.openstreetmap.org/way/497793000"
+   ],
+   "note": "2012-12-15 개점(일직동 163-3)."
+  },
+  {
+   "id": "kia_autoland_gwangmyeong",
+   "name_ko": "기아 오토랜드 광명",
+   "name_en": "Kia AutoLand Gwangmyeong",
+   "kind": "factory",
+   "lat": 37.43913,
+   "lon": 126.88888,
+   "opened_year": 1973,
+   "description_ko": "1973년 국내 최초의 종합 자동차 공장(옛 소하리 공장)으로 문을 열어 '브리사'를 만들던 곳이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.grandculture.net/gwangmyeong/toc/GC03100010",
+    "https://namu.wiki/w/기아 AutoLand 광명",
+    "https://www.openstreetmap.org/way/499830350"
+   ],
+   "note": "1973년 6월 준공. 2021년 '오토랜드 광명'으로 이름을 바꿈."
+  },
+  {
+   "id": "gwangmyeong_traditional_market",
+   "name_ko": "광명전통시장",
+   "name_en": "Gwangmyeong Traditional Market",
+   "kind": "mall",
+   "lat": 37.48027,
+   "lon": 126.8559,
+   "opened_year": 1970,
+   "description_ko": "1970년 오일장에서 시작해 수백 개 점포가 모인 경기도 대표 재래시장이 되었어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100629",
+    "http://www.sisanews.kr/news/articleView.html?idxno=64739"
+   ],
+   "note": "1970-12-21 광명사거리에서 개설. 1995년 대형 화재를 겪었고 2006년 현대화함."
+  },
+  {
+   "id": "cheolsan_rodeo",
+   "name_ko": "철산 로데오거리(철산상업지구)",
+   "name_en": "Cheolsan Rodeo Street (Commercial District)",
+   "kind": "other",
+   "lat": 37.47523,
+   "lon": 126.86851,
+   "opened_year": 1990,
+   "description_ko": "철산역 앞 먹거리와 쇼핑 가게가 빽빽한 광명의 대표 번화가예요.",
+   "status": "completed",
+   "confidence": "low",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://namu.wiki/w/광명시/문화 및 관광",
+    "https://www.openstreetmap.org/way/470018124"
+   ],
+   "note": "상업지구가 형성된 연도는 확인하지 못함. 1980년대 철산동 택지 개발과 1984년 시청 입지를 근거로 1990을 추정함."
+  },
+  {
+   "id": "dodeoksan_suspension_bridge",
+   "name_ko": "도덕산 출렁다리",
+   "name_en": "Dodeoksan Suspension Bridge",
+   "kind": "tourism",
+   "lat": 37.4672,
+   "lon": 126.8596,
+   "opened_year": 2022,
+   "description_ko": "높이 20m, 길이 82m로 수도권에서 처음 생긴 Y자형 출렁다리예요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.hankyung.com/article/202208256788Y",
+    "https://go.seoul.co.kr/news/newsView.php?id=20220825500209",
+    "https://www.openstreetmap.org/way/1333386537"
+   ],
+   "note": "2022-08-27 개통."
+  },
+  {
+   "id": "kihyungdo_literature_museum",
+   "name_ko": "기형도문학관",
+   "name_en": "Ki Hyung-do Literature Museum",
+   "kind": "culture",
+   "lat": 37.42643,
+   "lon": 126.88158,
+   "opened_year": 2017,
+   "description_ko": "광명에서 자란 시인 기형도의 삶과 시를 만나는 문학관이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03131016",
+    "https://ko.wikipedia.org/wiki/기형도문학관",
+    "https://www.openstreetmap.org/way/670851630"
+   ],
+   "note": "2016년 6월 착공, 2017-11-10 개관."
+  },
+  {
+   "id": "chunghyeon_museum",
+   "name_ko": "충현박물관",
+   "name_en": "Chunghyeon Museum",
+   "kind": "culture",
+   "lat": 37.43369,
+   "lon": 126.87842,
+   "opened_year": 2003,
+   "description_ko": "오리 이원익 선생의 후손이 종가 터에 세운 박물관으로, 청렴한 재상의 유물을 볼 수 있어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "exact",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/충현박물관",
+    "https://ggc.ggcf.kr/p/5c24baabd4a4d95e61616584",
+    "https://www.openstreetmap.org/node/368734611"
+   ],
+   "note": "2003년 10월 개관(소하2동)."
+  },
+  {
+   "id": "ori_jongtaek_gwangamdang",
+   "name_ko": "오리 이원익 종택 및 관감당",
+   "name_en": "Head House of Yi Won-ik & Gwangamdang",
+   "kind": "heritage",
+   "lat": 37.4335,
+   "lon": 126.8781,
+   "opened_year": 1630,
+   "description_ko": "인조가 청백리 이원익에게 지어 준 집 관감당이 남아 있는 오리 종가예요.",
+   "status": "completed",
+   "confidence": "medium",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100472",
+    "https://ko.wikipedia.org/wiki/충현박물관"
+   ],
+   "note": "관감당 건립 1630년(인조 8)은 검색 결과 요약 기준. 좌표는 충현박물관과 같은 부지."
+  },
+  {
+   "id": "yeonghoewon",
+   "name_ko": "광명 영회원",
+   "name_en": "Yeonghoewon Royal Tomb",
+   "kind": "heritage",
+   "lat": 37.43939,
+   "lon": 126.85997,
+   "opened_year": 1646,
+   "description_ko": "소현세자의 부인 민회빈 강씨가 잠든 사적 무덤으로, 구름산 자락 노온사동에 있어요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/영회원",
+    "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1333103570000&pageNo=1_1_2_0"
+   ],
+   "note": "1646년 사사 뒤 묘가 조성됨. 이후 영회원으로 격상됨(1870년 또는 1903년, 출처마다 다름). 사적 제357호."
+  },
+  {
+   "id": "saebit_park",
+   "name_ko": "광명새빛공원",
+   "name_en": "Gwangmyeong Saebit Park",
+   "kind": "park",
+   "lat": 37.41536,
+   "lon": 126.88852,
+   "opened_year": 2017,
+   "description_ko": "KTX 광명역 옆에 펼쳐진 약 18만㎡ 규모의 넓은 친환경 녹지공원이에요.",
+   "status": "completed",
+   "confidence": "low",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.kgnews.co.kr/news/article.html?no=620406",
+    "https://namu.wiki/w/광명시/문화 및 관광",
+    "https://www.openstreetmap.org/way/1075956462"
+   ],
+   "note": "개장 연도는 확인하지 못함. 광명역세권 개발 때 조성됐고 2020년 12월 기사에 이미 있던 공원으로 나옴. 2017은 추정치. 공원 안 자경저류지 수변공원은 2021년 6월 완공 목표였음."
+  },
+  {
+   "id": "anyangcheon_cherry_blossom_road",
+   "name_ko": "안양천 벚꽃길",
+   "name_en": "Anyangcheon Cherry Blossom Road",
+   "kind": "nature",
+   "lat": 37.468,
+   "lon": 126.882,
+   "description_ko": "철산동에서 소하동까지 안양천 제방을 따라 봄마다 분홍빛 벚꽃 터널이 펼쳐지는 산책길이에요.",
+   "status": "completed",
+   "confidence": "low",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://www.welfarehello.com/community/hometownNews/08059f8b-1683-4b93-961f-9561cba0deaf",
+    "https://www.gmcf.or.kr/Community/BoardNotice/Details?ArticleId=232190",
+    "https://www.telltrip.com/domestic-travel/anyangcheon-cherry-blossom-embankment-trail/"
+   ],
+   "note": "벚나무를 심은 연도는 확인하지 못해 opened_year를 비워 둠. 광명벚꽃축제(2024) 개최지. 좌표는 광명 쪽 제방 구간 중앙을 추정한 값."
+  },
+  {
+   "id": "resource_recovery_facility",
+   "name_ko": "광명시 자원회수시설",
+   "name_en": "Gwangmyeong Resource Recovery Facility",
+   "kind": "public",
+   "lat": 37.42579,
+   "lon": 126.86394,
+   "opened_year": 1999,
+   "description_ko": "광명동굴 가까이에서 생활쓰레기를 태워 에너지로 되살리는 소각시설이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://gwangmyeong.grandculture.net/gwangmyeong/toc/GC03100643",
+    "https://www.waterjournal.co.kr/news/articleView.html?idxno=76918",
+    "https://www.openstreetmap.org/way/546505987"
+   ],
+   "note": "1996년 3월 착공, 1999년 12월 준공. 증설 공사는 2028년 완공 목표."
+  },
+  {
+   "id": "cau_gwangmyeong_hospital",
+   "name_ko": "중앙대학교광명병원",
+   "name_en": "Chung-Ang University Gwangmyeong Hospital",
+   "kind": "hospital",
+   "lat": 37.42441,
+   "lon": 126.88659,
+   "opened_year": 2022,
+   "description_ko": "광명역세권에 들어선 광명의 첫 대학병원이에요.",
+   "status": "completed",
+   "confidence": "high",
+   "coord_confidence": "approx",
+   "sources": [
+    "http://www.thegmpost.com/news/articleView.html?idxno=12033",
+    "https://www.openstreetmap.org/way/662777934"
+   ],
+   "note": "2022-03-21 개원. 2018년 착공 당시 목표는 2021년 3월이었으나 1년 늦어짐."
+  },
+  {
+   "id": "gwangmyeong_sungae_hospital",
+   "name_ko": "광명성애병원",
+   "name_en": "Gwangmyeong Sungae Hospital",
+   "kind": "hospital",
+   "lat": 37.47338,
+   "lon": 126.87212,
+   "opened_year": 1987,
+   "description_ko": "철산역 근처에서 오랫동안 광명 시민의 건강을 지켜 온 종합병원이에요.",
+   "status": "completed",
+   "confidence": "medium",
+   "coord_confidence": "approx",
+   "sources": [
+    "https://h.sungae.co.kr/about/history.do",
+    "https://www.openstreetmap.org/way/252642622"
+   ],
+   "note": "1987-01-12 성애의료원이 광명의료재단 광명병원(300병상)을 인수. 전신인 광명병원의 개원 연도는 확인하지 못함."
+  }
+ ]
+}
