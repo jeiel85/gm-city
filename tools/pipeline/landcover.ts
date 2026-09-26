@@ -128,6 +128,18 @@ export function buildLandcover(ctx: PipelineContext): void {
       mapped[j * w + i] = 1;
     });
   ctx.stats.landcoverAreas = areas.length;
+  // 수동 보정: 건물로 잘못 그려진 도형을 땅(잔디·광장)으로
+  for (const o of ctx.curated.overrides.buildingsToGround) {
+    const el = ctx.osm.buildings.find((b) => b.type === 'way' && b.id === o.osmWayId);
+    if (!el) throw new Error(`overrides.json: OSM way ${o.osmWayId} 가 buildings 자료에 없습니다`);
+    const r = areaRings(el);
+    if (!r) throw new Error(`overrides.json: way ${o.osmWayId} 가 닫힌 면이 아닙니다`);
+    const v = LC[o.landcover];
+    fillRings(g.spec, allRings(r), (i, j) => {
+      set(i, j, v);
+      mapped[j * w + i] = 1;
+    });
+  }
 
   // 2) 하천 선: 면으로 안 그려진 물길을 폭대로
   const isWaterway = new Uint8Array(N);

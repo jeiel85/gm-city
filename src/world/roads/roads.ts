@@ -124,6 +124,8 @@ const yearMaterial = (app: AppContext, opts: ConstructorParameters<typeof MeshLa
 };
 
 export function createRoadLayers(app: AppContext, ground: GroundQuery): Group {
+  // 디오라마 밖(VOID)으로 삐져나가는 조각은 그리지 않는다
+  const onMap = (x: number, z: number) => ground.landCoverAt(x, z, 2026) !== 0;
   const { meta: nm, a: N } = app.data.network;
   const group = new Group();
   group.name = 'roads';
@@ -156,9 +158,12 @@ export function createRoadLayers(app: AppContext, ground: GroundQuery): Group {
     const xz = P.map((p) => [p[0], p[2]] as [number, number]);
     if (lvl >= 1 && cls <= RC.SERVICE) {
       // 교량: 상판 + 교각
-      for (let s = 1; s < P.length; s++) deck.beam(P[s - 1][0], P[s - 1][1], P[s - 1][2], P[s][0], P[s][1], P[s][2], N.edgeWidth[e] + 2, 1.3, '#b9b7b0', built, '#5f656d');
+      for (let s = 1; s < P.length; s++) {
+        if (!onMap(P[s - 1][0], P[s - 1][2]) || !onMap(P[s][0], P[s][2])) continue;
+        deck.beam(P[s - 1][0], P[s - 1][1], P[s - 1][2], P[s][0], P[s][1], P[s][2], N.edgeWidth[e] + 2, 1.3, '#b9b7b0', built, '#5f656d');
+      }
       walk(xz, 32, (ax, az, _bx, _bz, d) => {
-        if (d < 8) return;
+        if (d < 8 || !onMap(ax, az)) return;
         const k = Math.max(1, Math.round(d / 32));
         const idx = Math.min(P.length - 1, k);
         const y = P[idx][1] - 1.3;
@@ -166,9 +171,9 @@ export function createRoadLayers(app: AppContext, ground: GroundQuery): Group {
         if (y - gy > 1.5) deck.pillar(ax, az, 1.6, gy - 1, y, '#a9a79f', built);
       });
     } else if (lvl < 0 && cls <= RC.TERTIARY) {
-      for (let s = 1; s < P.length; s++) tubes.beam(P[s - 1][0], P[s - 1][1] + 2.5, P[s - 1][2], P[s][0], P[s][1] + 2.5, P[s][2], N.edgeWidth[e] + 1, 5, '#9aa3ad', built);
+      for (let s = 1; s < P.length; s++) if (onMap(P[s][0], P[s][2])) tubes.beam(P[s - 1][0], P[s - 1][1] + 2.5, P[s - 1][2], P[s][0], P[s][1] + 2.5, P[s][2], N.edgeWidth[e] + 1, 5, '#9aa3ad', built);
     }
-    if (lvl !== LEVEL.GROUND || !major(cls)) continue;
+    if (lvl !== LEVEL.GROUND || !major(cls) || !onMap(xz[0][0], xz[0][1])) continue;
     // 도로 표시(지면 위 0.06m)
     const lanes = N.edgeLanes[e];
     const oneway = N.edgeOneway[e] === 1;
@@ -224,6 +229,7 @@ export function createRoadLayers(app: AppContext, ground: GroundQuery): Group {
         const by = N.pathPts[q * 3 + 1];
         const bz = N.pathPts[q * 3 + 2];
         const lv = Math.min(N.pathLevel[q - 1], N.pathLevel[q]);
+        if (!onMap(ax, az) || !onMap(bx, bz)) continue;
         if (lv < 0 || N.pathLevel[q - 1] < 0 || N.pathLevel[q] < 0) {
           tubes.beam(ax, ay + 3, az, bx, by + 3, bz, 5, 6, col, done ? built : 0);
           continue;

@@ -83,6 +83,7 @@ export function classifyBuilding(tags: Record<string, string>, levels: number, f
     case 'parking':
       return BK.PARKING;
   }
+  if (/^(sports_centre|fitness_centre|stadium|sports_hall|ice_rink|swimming_pool)$/.test(tags.leisure ?? '') || /^(community_centre|arts_centre|library|townhall|theatre)$/.test(tags.amenity ?? '')) return BK.PUBLIC;
   if (tags.amenity === 'place_of_worship') return BK.RELIGIOUS;
   if (tags.amenity === 'school' || tags.amenity === 'kindergarten') return BK.SCHOOL;
   if (tags.amenity === 'hospital' || tags.amenity === 'clinic') return BK.HOSPITAL;
@@ -235,8 +236,10 @@ export function buildBuildings(ctx: PipelineContext): void {
   // ── 1) OSM 건물 ──
   const complexOf = (x: number, z: number) => namedResidential.find((r) => pointInRings(x, z, r.rings))?.name ?? null;
   const shapes: { el: OsmElement; s: Shape }[] = [];
+  const toGround = new Set(ctx.curated.overrides.buildingsToGround.map((o) => o.osmWayId));
   for (const el of ctx.osm.buildings) {
     const t = el.tags ?? {};
+    if (el.type === 'way' && toGround.has(el.id)) continue; // 수동 보정: 건물이 아니라 땅으로(landcover 단계가 칠함)
     if (t.building === 'roof' || t.building === 'ruins' || t['building:part']) continue;
     const r = areaRings(el);
     if (!r) continue;

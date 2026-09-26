@@ -327,18 +327,20 @@ function attachHud(root: HTMLElement, store: Store<AppState>, app: AppContext, e
     const m: HTMLDivElement = h('div', { class: 'gm-modal', role: 'dialog', 'aria-modal': 'true', 'aria-label': title, onclick: (e: Event) => e.target === m && close() }, h('div', { class: 'gm-panel card' }, h('h2', {}, title), ...body, h('div', { class: 'gm-row' }, h('span', { class: 'grow' }), h('button', { class: 'gm-btn primary', onclick: close }, '닫기'))));
     m.addEventListener('keydown', (e: KeyboardEvent) => e.key === 'Escape' && close());
     document.body.append(m);
-    (m.querySelector('button') as HTMLButtonElement | null)?.focus();
+    (m.querySelector('.gm-btn.primary') as HTMLButtonElement | null)?.focus({ preventScroll: true });
   };
   const k = (key: string, what: string) => [h('div', {}, ...key.split(' ').map((s) => h('kbd', {}, s))), h('div', {}, what)];
   function openHelp() {
     modal(
       '조작법',
-      h('h3', {}, '마우스'),
-      h('div', { class: 'gm-keys' }, ...k('왼쪽드래그', '지도 이동'), ...k('오른쪽드래그', '회전·기울이기'), ...k('휠', '확대·축소'), ...k('클릭', '건물·사람·버스·열차 정보')),
-      h('h3', {}, '터치'),
-      h('div', { class: 'gm-keys' }, ...k('한손가락', '이동'), ...k('두손가락', '확대·회전'), ...k('탭', '정보 보기')),
+      h(
+        'div',
+        { class: 'gm-cols' },
+        h('div', {}, h('h3', {}, '마우스'), h('div', { class: 'gm-keys' }, ...k('왼쪽드래그', '지도 이동'), ...k('오른쪽드래그', '회전·기울이기'), ...k('휠', '확대·축소'), ...k('클릭', '건물·사람·버스·열차 정보'))),
+        h('div', {}, h('h3', {}, '터치'), h('div', { class: 'gm-keys' }, ...k('한손가락', '이동'), ...k('두손가락', '확대·회전'), ...k('탭', '정보 보기'))),
+      ),
       h('h3', {}, '키보드'),
-      h('div', { class: 'gm-keys' }, ...k('W A S D', '이동'), ...k('Q E', '90° 회전'), ...k('+ -', '확대·축소'), ...k('R', '처음 시점'), ...k('Space', '타임라인 재생'), ...k('[ ]', '1년 앞뒤로'), ...k('T', '시계 멈춤/재생'), ...k('L', '이름표'), ...k('X', '지하 투시'), ...k('Esc', '선택·따라가기 해제')),
+      h('div', { class: 'gm-keys two' }, ...k('W A S D', '이동'), ...k('Q E', '90° 회전'), ...k('+ -', '확대·축소'), ...k('R', '처음 시점'), ...k('Space', '타임라인 재생'), ...k('[ ]', '1년 앞뒤로'), ...k('T', '시계 멈춤/재생'), ...k('L', '이름표'), ...k('X', '지하 투시'), ...k('Esc', '선택·따라가기 해제')),
     );
   }
   function openAbout() {

@@ -25,6 +25,7 @@ test('classifyBuilding: 태그·층수·면적·주변 피복으로 종류 결�
   assert.equal(classifyBuilding({ building: 'yes' }, 0, 3000, LC.INDUSTRIAL), BK.INDUSTRIAL);
   assert.equal(classifyBuilding({ building: 'yes', name: '이케아 광명점' }, 0, 50000, LC.COMMERCIAL), BK.BIGBOX);
   assert.equal(classifyBuilding({ building: 'church' }, 0, 300, LC.RESIDENTIAL), BK.RELIGIOUS);
+  assert.equal(classifyBuilding({ building: 'yes', leisure: 'fitness_centre' }, 0, 9000, LC.PARK), BK.PUBLIC);
   assert.ok(roofFor(BK.VILLA, 0.1) !== roofFor(BK.VILLA, 0.9));
 });
 

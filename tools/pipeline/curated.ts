@@ -130,7 +130,12 @@ export interface CuratedLandmarks {
   landmarks: CuratedLandmark[];
 }
 
+export interface Overrides {
+  buildingsToGround: { osmWayId: number; landcover: 'PARK' | 'GRASS' | 'PLAZA'; reason: string }[];
+}
+
 export interface Curated {
+  overrides: Overrides;
   timeline: CuratedTimeline;
   transit: CuratedTransit;
   zones: CuratedZones;
@@ -144,6 +149,7 @@ export function loadCurated(dir: string): Curated {
     return JSON.parse(readFileSync(f, 'utf8')) as T;
   };
   return {
+    overrides: read<Overrides>('overrides'),
     timeline: read<CuratedTimeline>('timeline'),
     transit: read<CuratedTransit>('transit'),
     zones: read<CuratedZones>('zones'),
