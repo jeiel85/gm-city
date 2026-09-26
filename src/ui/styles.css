@@ -172,14 +172,14 @@ button { font: inherit; color: inherit; }
 .gm-sheet-toggle { display: none; }
 @media (max-width: 760px) {
   :root { --gutter: 12px; }
-  .gm-title { padding: 8px 12px; max-width: calc(100vw - 120px); }
+  .gm-title { padding: 8px 12px; max-width: calc(100vw - 84px); }
   .gm-title h1 { font-size: 20px; }
   .gm-title .sub, .gm-era { display: none; }
   .gm-year b { font-size: 32px; }
-  .gm-tools { gap: 6px; }
+  .gm-tools { gap: 6px; flex-direction: column; }
   .gm-tools .gm-btn.icon { width: 40px; height: 40px; font-size: 18px; }
   .gm-tools .wide-only { display: none; }
-  .gm-side { left: var(--gutter); right: var(--gutter); width: auto; top: auto; bottom: 150px; max-height: 46vh; }
+  .gm-side { left: var(--gutter); right: 64px; width: auto; top: auto; bottom: 150px; max-height: 46vh; }
   .gm-timeline { grid-template-columns: 1fr; gap: 6px; padding: 8px 10px 10px; }
   .gm-timeline .ctrl { justify-content: space-between; }
   .gm-legend { display: none; }
