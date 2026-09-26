@@ -47,7 +47,7 @@ async function main() {
 
     const world = await createWorld(app, (p, label) => ui.setLoading(0.6 + 0.35 * p, label));
     app.ground = world.ground;
-    engine.setBounds(world.bounds);
+    engine.setBounds(world.bounds, (x, z) => world.ground.heightAt(x, z));
     engine.addSystem(world);
 
     ui.setLoading(0.97, '사람과 차량 배치 중');

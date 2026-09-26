@@ -3,3 +3,4 @@ dist/
 data-raw/
 *.log
 .DS_Store
+.claude/
