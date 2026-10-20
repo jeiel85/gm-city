@@ -66,4 +66,15 @@ async function main() {
   }
 }
 
+// 설치형 PWA: 배포 빌드에서만 서비스워커를 등록한다(개발 서버의 HMR 요청을 가로채지 않도록).
+function registerServiceWorker() {
+  if (!import.meta.env.PROD || !('serviceWorker' in navigator)) return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js').catch((err: unknown) => {
+      console.warn('서비스워커 등록 실패:', err);
+    });
+  });
+}
+
+registerServiceWorker();
 void main();

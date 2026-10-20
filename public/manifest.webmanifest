@@ -1,0 +1,17 @@
+{
+  "name": "광명 미니어처 · GM City",
+  "short_name": "GM City",
+  "description": "경기도 광명시를 그대로 줄여 옮긴 복셀 아트 3D 디오라마. 1960년부터 2035년까지 도시의 변화를 타임라인으로 봅니다.",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#cfe8ff",
+  "theme_color": "#8cc85a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
