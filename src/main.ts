@@ -60,6 +60,7 @@ async function main() {
 
     engine.start();
     ui.setLoading(1, '완료');
+    primeServiceWorkerCache();
   } catch (err) {
     console.error(err);
     ui.showError(err instanceof Error ? err.message : String(err));
@@ -73,6 +74,17 @@ function registerServiceWorker() {
     navigator.serviceWorker.register(import.meta.env.BASE_URL + 'sw.js').catch((err: unknown) => {
       console.warn('서비스워커 등록 실패:', err);
     });
+  });
+}
+
+// 첫 방문은 서비스워커가 페이지를 제어하기 전에 로드되므로, 로딩이 끝난 뒤 실제로 받은 같은 출처 자원
+// (해시된 번들·워커·data/)을 서비스워커에 알려 캐시에 채운다. 설치 직후 오프라인 실행에 필요하다.
+function primeServiceWorkerCache() {
+  if (!import.meta.env.PROD || !('serviceWorker' in navigator)) return;
+  void navigator.serviceWorker.ready.then((registration) => {
+    const urls = performance.getEntriesByType('resource').map((entry) => entry.name);
+    urls.push(location.href);
+    registration.active?.postMessage({ type: 'CACHE_URLS', urls });
   });
 }
 
